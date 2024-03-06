@@ -24,7 +24,7 @@
         </div>
         <div class="navbar-center">
           <a class="btn btn-ghost font-semibold text-xl text-blue-950 hover:bg-white">
-            <img class="pb-0.5" src="https://cdn-icons-png.flaticon.com/512/7316/7316704.png" width="25" height="15" alt="">
+            <img src="https://cdn-icons-png.flaticon.com/512/7316/7316704.png" width="25" height="15" alt="" class="pb-0.5">
             <span class="pt-0.5">PCL.Dev</span>
           </a>
         </div>
@@ -41,7 +41,7 @@
         <div class="navbar bg-base-100 ">
           <div class="flex-1">
             <a class="btn btn-ghost font-semibold text-xl text-blue-950 hover:bg-white">
-              <img class="pb-0.5" src="https://cdn-icons-png.flaticon.com/512/7316/7316704.png" width="25" height="15" alt="">
+              <img src="https://cdn-icons-png.flaticon.com/512/7316/7316704.png" width="25" height="15" alt="" class="pb-0.5">
               <span class="pt-0.5">PCL.Dev</span>
             </a>
           </div>

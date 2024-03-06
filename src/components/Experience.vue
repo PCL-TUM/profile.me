@@ -2,9 +2,9 @@
   <div>
 
     <div class="py-5">
-      <button onclick="my_modal_3.showModal()">
-        <div class="card w-full sm:w-1/4 bg-base-100 shadow-xl">
-          <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+      <div class="card w-full sm:w-2/5 md:w-4/12 lg:w-3/12 xl:w-1/5 2xl:w-2/12 bg-base-100 shadow-xl">
+        <button onclick="my_modal_3.showModal()">
+          <figure><img src="https://flowbite.s3.amazonaws.com/docs/device-mockups/laptop-screen.png" alt="Shoes" /></figure>
           <div class="card-body py-5">
             <h2 class="card-title">
               Shoes!
@@ -16,8 +16,8 @@
               <div class="badge badge-outline">Products</div>
             </div>
           </div>
-        </div>
-      </button>
+        </button>
+      </div>
     </div>
 
     <dialog id="my_modal_3" class="modal">
