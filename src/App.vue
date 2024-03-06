@@ -1,13 +1,13 @@
 <script setup>
-  import HelloWorld from './components/HelloWorld.vue'
   import Navbar from './components/Navbar.vue'
+  import Experience from './components/Experience.vue'
 </script>
 
 <template>
   <div>
-    <Navbar />
-    <div class="container mx-auto">
-      
+    <Navbar />  <!-- component Navbar -->
+    <div class="container w-full mx-auto px-5 sm:px-10">
+      <Experience />
     </div>
   </div>
 </template>
