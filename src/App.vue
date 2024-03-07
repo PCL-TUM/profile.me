@@ -7,7 +7,9 @@
   <div>
     <Navbar />  <!-- component Navbar -->
     <div class="container w-full mx-auto px-5 sm:px-10">
-      <Experience />
+      <div class="sm:px-5">
+        <Experience />
+      </div>
     </div>
   </div>
 </template>

@@ -8,17 +8,23 @@
             <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
             </div>
-            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-xl w-52">
-              <li><a>Link</a></li>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow-lg bg-base-100 rounded-xl w-72">
+              <li><a href="#" class="p-4">Home</a></li>
+              <li><a href="#" class="p-4">About</a></li>
+              <li><a href="#" class="p-4">Skill</a></li>
               <li>
-                <summary>
-                  Parent
+                <summary class="p-4">
+                  Project
                 </summary>
                 <ul class="p-2 bg-base-100 rounded-t-none">
-                  <li><a>Link 1</a></li>
-                  <li><a>Link 2</a></li>
+                  <li><a href="#" class="p-4">Folio Profile</a></li>
+                  <li><a href="#" class="p-4">PSIP : Project<span class="badge badge-sm badge-ghost">University</span></a></li>
+                  <li><a href="#" class="p-4">Bluewind <span class="badge badge-sm badge-ghost">Internship</span></a></li>
+                  <li><a href="#" class="p-4">Borrow Equpment <span class="badge badge-sm badge-ghost">Freelance</span></a></li>
+                  <li><a href="#" class="p-4">Banmai service</a></li>
                 </ul>
               </li>
+              <li><a href="#" class="p-4">Contact</a></li>
             </ul>
           </div>
         </div>
@@ -47,18 +53,24 @@
           </div>
           <div class="flex-none">
             <ul class="menu menu-horizontal px-1">
-              <li><a>Link</a></li>
+              <li><a>Home</a></li>
+              <li><a>About</a></li>
+              <li><a>Skill</a></li>
               <li>
-                <details>
+                <details class="dropdown-end">
                   <summary>
-                    Parent
+                    Project
                   </summary>
-                  <ul class="p-2 bg-base-100 rounded-t-none">
-                    <li><a>Link 1</a></li>
-                    <li><a>Link 2</a></li>
+                  <ul class="dropdown-content p-2 z-[1] menu bg-base-100 shadow-lg rounded-t-none w-60">
+                    <li><a href="#" class="p-4">Folio Profile</a></li>
+                    <li><a href="#" class="p-4">PSIP : Project<span class="badge badge-sm badge-ghost">University</span></a></li>
+                    <li><a href="#" class="p-4">Bluewind <span class="badge badge-sm badge-ghost">Internship</span></a></li>
+                    <li><a href="#" class="p-4">Borrow Equpment <span class="badge badge-sm badge-ghost">Freelance</span></a></li>
+                    <li><a href="#" class="p-4">Banmai service</a></li>
                   </ul>
                 </details>
               </li>
+              <li><a>Contact</a></li>
             </ul>
           </div>
         </div>
