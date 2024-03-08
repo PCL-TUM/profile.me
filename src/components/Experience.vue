@@ -47,6 +47,10 @@
             <div class="pt-3 font-bold text-5xl flex justify-center 2xl:justify-start gap-4"> 
               <VsFileTypeVite />
               <DeVuejsOriginal />
+              <DeTailwindcssPlain />
+              <div class="flex flex-row gap-4">
+                <img src="https://daisyui.com/images/daisyui-logo/daisyui-logotype.svg" class="h-auto max-w-36" alt="">
+              </div>
             </div>
           </div>
         </div>
@@ -98,6 +102,10 @@
             <div class="pt-3 font-bold text-5xl flex justify-center 2xl:justify-start gap-4"> 
               <VsFileTypeVite />
               <DeVuejsOriginal />
+              <DeTailwindcssPlain />
+              <div class="flex flex-row gap-4">
+                <img src="https://daisyui.com/images/daisyui-logo/daisyui-logotype.svg" class="h-auto max-w-36" alt="">
+              </div>
             </div>
           </div>
         </div>
@@ -119,11 +127,13 @@
 <script>
   import { VsFileTypeVite } from "@kalimahapps/vue-icons";
   import { DeVuejsOriginal } from "@kalimahapps/vue-icons";
+  import { DeTailwindcssPlain } from "@kalimahapps/vue-icons";
 
   export default {
     components: {
       VsFileTypeVite,
-      DeVuejsOriginal
+      DeVuejsOriginal,
+      DeTailwindcssPlain,
     }
   }
 </script>
