@@ -8,504 +8,541 @@
                 My computer language skills and tools or framework knowledge that can be applied to website development
             </h4>
 
-            <div class="grid grid-cols-1 justify-items-center gap-5 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 py-5 ">
+            <swiper :effect="'coverflow'" :grabCursor="true" :centeredSlides="true" :loop="true" :spaceBetween="12"
+                    :slidesPerView="'auto'" :coverflowEffect="{
+                    rotate: 15,
+                    stretch: 0,
+                    depth: 150,
+                    modifier: 1,
+                    slideShadows: true,
+                }" :pagination="{ clickable: true, }" :modules="modules" class="mySwiper">
+            <!-- <div class="grid grid-cols-1 justify-items-center gap-5 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 py-5 "> -->
+                <swiper-slide>
+                    <div class="card w-80 bg-base-100 shadow-lg">
+                        <div class="card-body p-5 pt-10 gap-y-10">
+                            <h1 class="card-title justify-center font-bold text-3xl">HTML</h1>
 
-                <div class="card w-80 bg-base-100 shadow-md">
-                    <div class="card-body p-5 pt-10 gap-y-10">
-                        <h1 class="card-title justify-center font-bold text-3xl">HTML</h1>
-
-                        <div class="card-actions justify-center">
-                            <div class="indicator progress-bar html">
-                                <span class="indicator-item indicator-middle indicator-center badge bg-none border-none text-5xl">
-                                    <DeHtml5Original />
-                                </span>
-                                <progress class="indicator-item indicator-middle indicator-center" min="0" max="100" value="90"></progress>
-                            </div>
-                        </div>
-
-                        <div class="card-actions text-center">
-                            <div class="flex w-full">
-                                <div class="grid h-10 flex-grow place-items-center">
-                                    <h1 class="font-bold text-3xl">90%</h1>
+                            <div class="card-actions justify-center">
+                                <div class="indicator progress-bar html">
+                                    <span class="indicator-item indicator-middle indicator-center badge bg-none border-none text-5xl">
+                                        <DeHtml5Original />
+                                    </span>
+                                    <progress class="indicator-item indicator-middle indicator-center" min="0" max="100" value="90"></progress>
                                 </div>
-                                <div class="divider divider-horizontal"></div>
-                                <div class="grid h-10 flex-grow place-items-center">
-                                    <div class="rating">
-                                        <input type="radio" class="mask mask-star-2 bg-[#f5743d]" disabled />
-                                        <input type="radio" class="mask mask-star-2 bg-[#f5743d]" disabled />
-                                        <input type="radio" class="mask mask-star-2 bg-[#f5743d]" disabled />
-                                        <input type="radio" class="mask mask-star-2 bg-[#f5743d]" disabled />
-                                        <input type="radio" class="mask mask-star-2 bg-[#f5743d]" checked />
+                            </div>
+
+                            <div class="card-actions text-center">
+                                <div class="flex w-full">
+                                    <div class="grid h-10 flex-grow place-items-center">
+                                        <h1 class="font-bold text-3xl">90%</h1>
+                                    </div>
+                                    <div class="divider divider-horizontal"></div>
+                                    <div class="grid h-10 flex-grow place-items-center">
+                                        <div class="rating">
+                                            <input type="radio" class="mask mask-star-2 bg-[#f5743d]" disabled />
+                                            <input type="radio" class="mask mask-star-2 bg-[#f5743d]" disabled />
+                                            <input type="radio" class="mask mask-star-2 bg-[#f5743d]" disabled />
+                                            <input type="radio" class="mask mask-star-2 bg-[#f5743d]" disabled />
+                                            <input type="radio" class="mask mask-star-2 bg-[#f5743d]" checked />
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </swiper-slide>
+                
+                <swiper-slide>
+                    <div class="card w-80 bg-base-100 shadow-lg">
+                        <div class="card-body p-5 pt-10 gap-y-10">
+                            <h1 class="card-title justify-center font-bold text-3xl">CSS</h1>
 
-                <div class="card w-80 bg-base-100 shadow-md">
-                    <div class="card-body p-5 pt-10 gap-y-10">
-                        <h1 class="card-title justify-center font-bold text-3xl">CSS</h1>
-
-                        <div class="card-actions justify-center">
-                            <div class="indicator progress-bar css">
-                                <span class="indicator-item indicator-middle indicator-center badge bg-none border-none text-5xl">
-                                    <DeCss3Original />
-                                </span>
-                                <progress class="indicator-item indicator-middle indicator-center" min="0" max="100" value="80"></progress>
-                            </div>
-                        </div>
-
-                        <div class="card-actions text-center">
-                            <div class="flex w-full">
-                                <div class="grid h-10 flex-grow place-items-center">
-                                    <h1 class="font-bold text-3xl">85%</h1>
+                            <div class="card-actions justify-center">
+                                <div class="indicator progress-bar css">
+                                    <span class="indicator-item indicator-middle indicator-center badge bg-none border-none text-5xl">
+                                        <DeCss3Original />
+                                    </span>
+                                    <progress class="indicator-item indicator-middle indicator-center" min="0" max="100" value="80"></progress>
                                 </div>
-                                <div class="divider divider-horizontal"></div>
-                                <div class="grid h-10 flex-grow place-items-center">
-                                    <div class="rating">
-                                        <input type="radio" class="mask mask-star-2 bg-[#32a9db]" disabled />
-                                        <input type="radio" class="mask mask-star-2 bg-[#32a9db]" disabled />
-                                        <input type="radio" class="mask mask-star-2 bg-[#32a9db]" disabled />
-                                        <input type="radio" class="mask mask-star-2 bg-[#32a9db]" checked />
-                                        <input type="radio" class="mask mask-star-2 bg-[#32a9db]" disabled />
+                            </div>
+
+                            <div class="card-actions text-center">
+                                <div class="flex w-full">
+                                    <div class="grid h-10 flex-grow place-items-center">
+                                        <h1 class="font-bold text-3xl">85%</h1>
+                                    </div>
+                                    <div class="divider divider-horizontal"></div>
+                                    <div class="grid h-10 flex-grow place-items-center">
+                                        <div class="rating">
+                                            <input type="radio" class="mask mask-star-2 bg-[#32a9db]" disabled />
+                                            <input type="radio" class="mask mask-star-2 bg-[#32a9db]" disabled />
+                                            <input type="radio" class="mask mask-star-2 bg-[#32a9db]" disabled />
+                                            <input type="radio" class="mask mask-star-2 bg-[#32a9db]" checked />
+                                            <input type="radio" class="mask mask-star-2 bg-[#32a9db]" disabled />
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </swiper-slide>
 
-                <div class="card w-80 bg-base-100 shadow-md">
-                    <div class="card-body p-5 pt-10 gap-y-10">
-                        <h1 class="card-title justify-center font-bold text-3xl">Java Script</h1>
+                <swiper-slide>
+                    <div class="card w-80 bg-base-100 shadow-lg">
+                        <div class="card-body p-5 pt-10 gap-y-10">
+                            <h1 class="card-title justify-center font-bold text-3xl">Java Script</h1>
 
-                        <div class="card-actions justify-center">
-                            <div class="indicator progress-bar js">
-                                <span class="indicator-item indicator-middle indicator-center badge bg-none border-none text-5xl">
-                                    <DeJavascriptOriginal />
-                                </span>
-                                <progress class="indicator-item indicator-middle indicator-center" min="0" max="100" value="75"></progress>
-                            </div>
-                        </div>
-
-                        <div class="card-actions text-center">
-                            <div class="flex w-full">
-                                <div class="grid h-10 flex-grow place-items-center">
-                                    <h1 class="font-bold text-3xl">75%</h1>
+                            <div class="card-actions justify-center">
+                                <div class="indicator progress-bar js">
+                                    <span class="indicator-item indicator-middle indicator-center badge bg-none border-none text-5xl">
+                                        <DeJavascriptOriginal />
+                                    </span>
+                                    <progress class="indicator-item indicator-middle indicator-center" min="0" max="100" value="75"></progress>
                                 </div>
-                                <div class="divider divider-horizontal"></div>
-                                <div class="grid h-10 flex-grow place-items-center">
-                                    <div class="rating">
-                                        <input type="radio" class="mask mask-star-2 bg-[#f0da4f]" disabled />
-                                        <input type="radio" class="mask mask-star-2 bg-[#f0da4f]" disabled />
-                                        <input type="radio" class="mask mask-star-2 bg-[#f0da4f]" disabled />
-                                        <input type="radio" class="mask mask-star-2 bg-[#f0da4f]" checked />
-                                        <input type="radio" class="mask mask-star-2 bg-[#f0da4f]" disabled />
+                            </div>
+
+                            <div class="card-actions text-center">
+                                <div class="flex w-full">
+                                    <div class="grid h-10 flex-grow place-items-center">
+                                        <h1 class="font-bold text-3xl">75%</h1>
+                                    </div>
+                                    <div class="divider divider-horizontal"></div>
+                                    <div class="grid h-10 flex-grow place-items-center">
+                                        <div class="rating">
+                                            <input type="radio" class="mask mask-star-2 bg-[#f0da4f]" disabled />
+                                            <input type="radio" class="mask mask-star-2 bg-[#f0da4f]" disabled />
+                                            <input type="radio" class="mask mask-star-2 bg-[#f0da4f]" disabled />
+                                            <input type="radio" class="mask mask-star-2 bg-[#f0da4f]" checked />
+                                            <input type="radio" class="mask mask-star-2 bg-[#f0da4f]" disabled />
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </swiper-slide>
 
-                <div class="card w-80 bg-base-100 shadow-md">
-                    <div class="card-body p-5 pt-10 gap-y-10">
-                        <h1 class="card-title justify-center font-bold text-3xl">PHP</h1>
+                <swiper-slide>
+                    <div class="card w-80 bg-base-100 shadow-lg">
+                        <div class="card-body p-5 pt-10 gap-y-10">
+                            <h1 class="card-title justify-center font-bold text-3xl">PHP</h1>
 
-                        <div class="card-actions justify-center">
-                            <div class="indicator progress-bar php">
-                                <span class="indicator-item indicator-middle indicator-center badge bg-none border-none text-5xl">
-                                    <DePhpPlain />
-                                </span>
-                                <progress class="indicator-item indicator-middle indicator-center" min="0" max="100" value="80"></progress>
-                            </div>
-                        </div>
-
-                        <div class="card-actions text-center">
-                            <div class="flex w-full">
-                                <div class="grid h-10 flex-grow place-items-center">
-                                    <h1 class="font-bold text-3xl">80%</h1>
+                            <div class="card-actions justify-center">
+                                <div class="indicator progress-bar php">
+                                    <span class="indicator-item indicator-middle indicator-center badge bg-none border-none text-5xl">
+                                        <DePhpPlain />
+                                    </span>
+                                    <progress class="indicator-item indicator-middle indicator-center" min="0" max="100" value="80"></progress>
                                 </div>
-                                <div class="divider divider-horizontal"></div>
-                                <div class="grid h-10 flex-grow place-items-center">
-                                    <div class="rating">
-                                        <input type="radio" class="mask mask-star-2 bg-[#777cb5]" disabled />
-                                        <input type="radio" class="mask mask-star-2 bg-[#777cb5]" disabled />
-                                        <input type="radio" class="mask mask-star-2 bg-[#777cb5]" disabled />
-                                        <input type="radio" class="mask mask-star-2 bg-[#777cb5]" checked />
-                                        <input type="radio" class="mask mask-star-2 bg-[#777cb5]" disabled />
+                            </div>
+
+                            <div class="card-actions text-center">
+                                <div class="flex w-full">
+                                    <div class="grid h-10 flex-grow place-items-center">
+                                        <h1 class="font-bold text-3xl">80%</h1>
+                                    </div>
+                                    <div class="divider divider-horizontal"></div>
+                                    <div class="grid h-10 flex-grow place-items-center">
+                                        <div class="rating">
+                                            <input type="radio" class="mask mask-star-2 bg-[#777cb5]" disabled />
+                                            <input type="radio" class="mask mask-star-2 bg-[#777cb5]" disabled />
+                                            <input type="radio" class="mask mask-star-2 bg-[#777cb5]" disabled />
+                                            <input type="radio" class="mask mask-star-2 bg-[#777cb5]" checked />
+                                            <input type="radio" class="mask mask-star-2 bg-[#777cb5]" disabled />
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </swiper-slide>
 
-                <div class="card w-80 bg-base-100 shadow-md">
-                    <div class="card-body p-5 pt-10 gap-y-10">
-                        <h1 class="card-title justify-center font-bold text-3xl">Java</h1>
+                <swiper-slide>
+                    <div class="card w-80 bg-base-100 shadow-lg">
+                        <div class="card-body p-5 pt-10 gap-y-10">
+                            <h1 class="card-title justify-center font-bold text-3xl">Java</h1>
 
-                        <div class="card-actions justify-center">
-                            <div class="indicator progress-bar java">
-                                <span class="indicator-item indicator-middle indicator-center badge bg-none border-none text-5xl">
-                                    <DeJavaOriginal />
-                                </span>
-                                <progress class="indicator-item indicator-middle indicator-center" min="0" max="100" value="70"></progress>
-                            </div>
-                        </div>
-
-                        <div class="card-actions text-center">
-                            <div class="flex w-full">
-                                <div class="grid h-10 flex-grow place-items-center">
-                                    <h1 class="font-bold text-3xl">70%</h1>
+                            <div class="card-actions justify-center">
+                                <div class="indicator progress-bar java">
+                                    <span class="indicator-item indicator-middle indicator-center badge bg-none border-none text-5xl">
+                                        <DeJavaOriginal />
+                                    </span>
+                                    <progress class="indicator-item indicator-middle indicator-center" min="0" max="100" value="70"></progress>
                                 </div>
-                                <div class="divider divider-horizontal"></div>
-                                <div class="grid h-10 flex-grow place-items-center">
-                                    <div class="rating">
-                                        <input type="radio" class="mask mask-star-2 bg-[#718ebd]" disabled />
-                                        <input type="radio" class="mask mask-star-2 bg-[#718ebd]" disabled />
-                                        <input type="radio" class="mask mask-star-2 bg-[#718ebd]" disabled />
-                                        <input type="radio" class="mask mask-star-2 bg-[#718ebd]" checked />
-                                        <input type="radio" class="mask mask-star-2 bg-[#eb2d2d]" disabled />
+                            </div>
+
+                            <div class="card-actions text-center">
+                                <div class="flex w-full">
+                                    <div class="grid h-10 flex-grow place-items-center">
+                                        <h1 class="font-bold text-3xl">70%</h1>
+                                    </div>
+                                    <div class="divider divider-horizontal"></div>
+                                    <div class="grid h-10 flex-grow place-items-center">
+                                        <div class="rating">
+                                            <input type="radio" class="mask mask-star-2 bg-[#718ebd]" disabled />
+                                            <input type="radio" class="mask mask-star-2 bg-[#718ebd]" disabled />
+                                            <input type="radio" class="mask mask-star-2 bg-[#718ebd]" disabled />
+                                            <input type="radio" class="mask mask-star-2 bg-[#718ebd]" checked />
+                                            <input type="radio" class="mask mask-star-2 bg-[#eb2d2d]" disabled />
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </swiper-slide>
 
-                <div class="card w-80 bg-base-100 shadow-md">
-                    <div class="card-body p-5 pt-10 gap-y-10">
-                        <h1 class="card-title justify-center font-bold text-3xl">Python</h1>
+                <swiper-slide>
+                    <div class="card w-80 bg-base-100 shadow-lg">
+                        <div class="card-body p-5 pt-10 gap-y-10">
+                            <h1 class="card-title justify-center font-bold text-3xl">Python</h1>
 
-                        <div class="card-actions justify-center">
-                            <div class="indicator progress-bar python">
-                                <span class="indicator-item indicator-middle indicator-center badge bg-none border-none text-5xl">
-                                    <DePythonOriginalWordmark />
-                                </span>
-                                <progress class="indicator-item indicator-middle indicator-center" min="0" max="100" value="40"></progress>
-                            </div>
-                        </div>
-
-                        <div class="card-actions text-center">
-                            <div class="flex w-full">
-                                <div class="grid h-10 flex-grow place-items-center">
-                                    <h1 class="font-bold text-3xl">40%</h1>
+                            <div class="card-actions justify-center">
+                                <div class="indicator progress-bar python">
+                                    <span class="indicator-item indicator-middle indicator-center badge bg-none border-none text-5xl">
+                                        <DePythonOriginalWordmark />
+                                    </span>
+                                    <progress class="indicator-item indicator-middle indicator-center" min="0" max="100" value="40"></progress>
                                 </div>
-                                <div class="divider divider-horizontal"></div>
-                                <div class="grid h-10 flex-grow place-items-center">
-                                    <div class="rating">
-                                        <input type="radio" class="mask mask-star-2 bg-[#3771a1]" disabled />
-                                        <input type="radio" class="mask mask-star-2 bg-[#3771a1]" checked />
-                                        <input type="radio" class="mask mask-star-2 bg-[#f5bc20]" disabled />
-                                        <input type="radio" class="mask mask-star-2 bg-[#f5bc20]" disabled />
-                                        <input type="radio" class="mask mask-star-2 bg-[#f5bc20]" disabled />
+                            </div>
+
+                            <div class="card-actions text-center">
+                                <div class="flex w-full">
+                                    <div class="grid h-10 flex-grow place-items-center">
+                                        <h1 class="font-bold text-3xl">40%</h1>
+                                    </div>
+                                    <div class="divider divider-horizontal"></div>
+                                    <div class="grid h-10 flex-grow place-items-center">
+                                        <div class="rating">
+                                            <input type="radio" class="mask mask-star-2 bg-[#3771a1]" disabled />
+                                            <input type="radio" class="mask mask-star-2 bg-[#3771a1]" checked />
+                                            <input type="radio" class="mask mask-star-2 bg-[#f5bc20]" disabled />
+                                            <input type="radio" class="mask mask-star-2 bg-[#f5bc20]" disabled />
+                                            <input type="radio" class="mask mask-star-2 bg-[#f5bc20]" disabled />
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </swiper-slide>
 
-                <div class="card w-80 bg-base-100 shadow-md">
-                    <div class="card-body p-5 pt-10 gap-y-10">
-                        <h1 class="card-title justify-center font-bold text-3xl">C#</h1>
+                <swiper-slide>
+                    <div class="card w-80 bg-base-100 shadow-lg">
+                        <div class="card-body p-5 pt-10 gap-y-10">
+                            <h1 class="card-title justify-center font-bold text-3xl">C#</h1>
 
-                        <div class="card-actions justify-center">
-                            <div class="indicator progress-bar cshap">
-                                <span class="indicator-item indicator-middle indicator-center badge bg-none border-none text-5xl">
-                                    <DeCsharpOriginal />
-                                </span>
-                                <progress class="indicator-item indicator-middle indicator-center" min="0" max="100" value="65"></progress>
-                            </div>
-                        </div>
-
-                        <div class="card-actions text-center">
-                            <div class="flex w-full">
-                                <div class="grid h-10 flex-grow place-items-center">
-                                    <h1 class="font-bold text-3xl">65%</h1>
+                            <div class="card-actions justify-center">
+                                <div class="indicator progress-bar cshap">
+                                    <span class="indicator-item indicator-middle indicator-center badge bg-none border-none text-5xl">
+                                        <DeCsharpOriginal />
+                                    </span>
+                                    <progress class="indicator-item indicator-middle indicator-center" min="0" max="100" value="65"></progress>
                                 </div>
-                                <div class="divider divider-horizontal"></div>
-                                <div class="grid h-10 flex-grow place-items-center">
-                                    <div class="rating">
-                                        <input type="radio" class="mask mask-star-2 bg-[#69217a]" disabled />
-                                        <input type="radio" class="mask mask-star-2 bg-[#69217a]" disabled />
-                                        <input type="radio" class="mask mask-star-2 bg-[#69217a]" checked />
-                                        <input type="radio" class="mask mask-star-2 bg-[#69217a]" disabled />
-                                        <input type="radio" class="mask mask-star-2 bg-[#69217a]" disabled />
+                            </div>
+
+                            <div class="card-actions text-center">
+                                <div class="flex w-full">
+                                    <div class="grid h-10 flex-grow place-items-center">
+                                        <h1 class="font-bold text-3xl">65%</h1>
+                                    </div>
+                                    <div class="divider divider-horizontal"></div>
+                                    <div class="grid h-10 flex-grow place-items-center">
+                                        <div class="rating">
+                                            <input type="radio" class="mask mask-star-2 bg-[#69217a]" disabled />
+                                            <input type="radio" class="mask mask-star-2 bg-[#69217a]" disabled />
+                                            <input type="radio" class="mask mask-star-2 bg-[#69217a]" checked />
+                                            <input type="radio" class="mask mask-star-2 bg-[#69217a]" disabled />
+                                            <input type="radio" class="mask mask-star-2 bg-[#69217a]" disabled />
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </swiper-slide>
 
-                <div class="card w-80 bg-base-100 shadow-md">
-                    <div class="card-body p-5 pt-10 gap-y-10">
-                        <h1 class="card-title justify-center font-bold text-3xl">C++</h1>
+                <swiper-slide>
+                    <div class="card w-80 bg-base-100 shadow-lg">
+                        <div class="card-body p-5 pt-10 gap-y-10">
+                            <h1 class="card-title justify-center font-bold text-3xl">C++</h1>
 
-                        <div class="card-actions justify-center">
-                            <div class="indicator progress-bar cplusplus">
-                                <span class="indicator-item indicator-middle indicator-center badge bg-none border-none text-5xl">
-                                    <DeCplusplusOriginal />
-                                </span>
-                                <progress class="indicator-item indicator-middle indicator-center" min="0" max="100" value="60"></progress>
-                            </div>
-                        </div>
-
-                        <div class="card-actions text-center">
-                            <div class="flex w-full">
-                                <div class="grid h-10 flex-grow place-items-center">
-                                    <h1 class="font-bold text-3xl">60%</h1>
+                            <div class="card-actions justify-center">
+                                <div class="indicator progress-bar cplusplus">
+                                    <span class="indicator-item indicator-middle indicator-center badge bg-none border-none text-5xl">
+                                        <DeCplusplusOriginal />
+                                    </span>
+                                    <progress class="indicator-item indicator-middle indicator-center" min="0" max="100" value="60"></progress>
                                 </div>
-                                <div class="divider divider-horizontal"></div>
-                                <div class="grid h-10 flex-grow place-items-center">
-                                    <div class="rating">
-                                        <input type="radio" class="mask mask-star-2 bg-[#9c033b]" disabled />
-                                        <input type="radio" class="mask mask-star-2 bg-[#9c033b]" disabled />
-                                        <input type="radio" class="mask mask-star-2 bg-[#9c033b]" checked />
-                                        <input type="radio" class="mask mask-star-2 bg-[#9c033b]" disabled />
-                                        <input type="radio" class="mask mask-star-2 bg-[#9c033b]" disabled />
+                            </div>
+
+                            <div class="card-actions text-center">
+                                <div class="flex w-full">
+                                    <div class="grid h-10 flex-grow place-items-center">
+                                        <h1 class="font-bold text-3xl">60%</h1>
+                                    </div>
+                                    <div class="divider divider-horizontal"></div>
+                                    <div class="grid h-10 flex-grow place-items-center">
+                                        <div class="rating">
+                                            <input type="radio" class="mask mask-star-2 bg-[#9c033b]" disabled />
+                                            <input type="radio" class="mask mask-star-2 bg-[#9c033b]" disabled />
+                                            <input type="radio" class="mask mask-star-2 bg-[#9c033b]" checked />
+                                            <input type="radio" class="mask mask-star-2 bg-[#9c033b]" disabled />
+                                            <input type="radio" class="mask mask-star-2 bg-[#9c033b]" disabled />
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </swiper-slide>
 
-                <div class="card w-80 bg-base-100 shadow-md">
-                    <div class="card-body p-5 pt-10 gap-y-10">
-                        <h1 class="card-title justify-center font-bold text-3xl">.NET</h1>
+                <swiper-slide>
+                    <div class="card w-80 bg-base-100 shadow-lg">
+                        <div class="card-body p-5 pt-10 gap-y-10">
+                            <h1 class="card-title justify-center font-bold text-3xl">.NET</h1>
 
-                        <div class="card-actions justify-center">
-                            <div class="indicator progress-bar dotnet">
-                                <span class="indicator-item indicator-middle indicator-center badge bg-none border-none text-5xl">
-                                    <DeDotNetOriginalWordmark />
-                                </span>
-                                <progress class="indicator-item indicator-middle indicator-center" min="0" max="100" value="60"></progress>
-                            </div>
-                        </div>
-
-                        <div class="card-actions text-center">
-                            <div class="flex w-full">
-                                <div class="grid h-10 flex-grow place-items-center">
-                                    <h1 class="font-bold text-3xl">60%</h1>
+                            <div class="card-actions justify-center">
+                                <div class="indicator progress-bar dotnet">
+                                    <span class="indicator-item indicator-middle indicator-center badge bg-none border-none text-5xl">
+                                        <DeDotNetOriginalWordmark />
+                                    </span>
+                                    <progress class="indicator-item indicator-middle indicator-center" min="0" max="100" value="60"></progress>
                                 </div>
-                                <div class="divider divider-horizontal"></div>
-                                <div class="grid h-10 flex-grow place-items-center">
-                                    <div class="rating">
-                                        <input type="radio" class="mask mask-star-2 bg-[#1567ab]" disabled />
-                                        <input type="radio" class="mask mask-star-2 bg-[#1567ab]" disabled />
-                                        <input type="radio" class="mask mask-star-2 bg-[#1567ab]" checked />
-                                        <input type="radio" class="mask mask-star-2 bg-[#1567ab]" disabled />
-                                        <input type="radio" class="mask mask-star-2 bg-[#1567ab]" disabled />
+                            </div>
+
+                            <div class="card-actions text-center">
+                                <div class="flex w-full">
+                                    <div class="grid h-10 flex-grow place-items-center">
+                                        <h1 class="font-bold text-3xl">60%</h1>
+                                    </div>
+                                    <div class="divider divider-horizontal"></div>
+                                    <div class="grid h-10 flex-grow place-items-center">
+                                        <div class="rating">
+                                            <input type="radio" class="mask mask-star-2 bg-[#1567ab]" disabled />
+                                            <input type="radio" class="mask mask-star-2 bg-[#1567ab]" disabled />
+                                            <input type="radio" class="mask mask-star-2 bg-[#1567ab]" checked />
+                                            <input type="radio" class="mask mask-star-2 bg-[#1567ab]" disabled />
+                                            <input type="radio" class="mask mask-star-2 bg-[#1567ab]" disabled />
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </swiper-slide>
 
-                <div class="card w-80 bg-base-100 shadow-md">
-                    <div class="card-body p-5 pt-10 gap-y-10">
-                        <h1 class="card-title justify-center font-bold text-3xl">React</h1>
+                <swiper-slide>
+                    <div class="card w-80 bg-base-100 shadow-lg">
+                        <div class="card-body p-5 pt-10 gap-y-10">
+                            <h1 class="card-title justify-center font-bold text-3xl">React</h1>
 
-                        <div class="card-actions justify-center">
-                            <div class="indicator progress-bar react">
-                                <span class="indicator-item indicator-middle indicator-center badge bg-none border-none text-5xl">
-                                    <DeReactOriginal />
-                                </span>
-                                <progress class="indicator-item indicator-middle indicator-center" min="0" max="100" value="65"></progress>
-                            </div>
-                        </div>
-
-                        <div class="card-actions text-center">
-                            <div class="flex w-full">
-                                <div class="grid h-10 flex-grow place-items-center">
-                                    <h1 class="font-bold text-3xl">65%</h1>
+                            <div class="card-actions justify-center">
+                                <div class="indicator progress-bar react">
+                                    <span class="indicator-item indicator-middle indicator-center badge bg-none border-none text-5xl">
+                                        <DeReactOriginal />
+                                    </span>
+                                    <progress class="indicator-item indicator-middle indicator-center" min="0" max="100" value="65"></progress>
                                 </div>
-                                <div class="divider divider-horizontal"></div>
-                                <div class="grid h-10 flex-grow place-items-center">
-                                    <div class="rating">
-                                        <input type="radio" class="mask mask-star-2 bg-[#61d9fa]" disabled />
-                                        <input type="radio" class="mask mask-star-2 bg-[#61d9fa]" disabled />
-                                        <input type="radio" class="mask mask-star-2 bg-[#61d9fa]" checked />
-                                        <input type="radio" class="mask mask-star-2 bg-[#61d9fa]" disabled />
-                                        <input type="radio" class="mask mask-star-2 bg-[#61d9fa]" disabled />
+                            </div>
+
+                            <div class="card-actions text-center">
+                                <div class="flex w-full">
+                                    <div class="grid h-10 flex-grow place-items-center">
+                                        <h1 class="font-bold text-3xl">65%</h1>
+                                    </div>
+                                    <div class="divider divider-horizontal"></div>
+                                    <div class="grid h-10 flex-grow place-items-center">
+                                        <div class="rating">
+                                            <input type="radio" class="mask mask-star-2 bg-[#61d9fa]" disabled />
+                                            <input type="radio" class="mask mask-star-2 bg-[#61d9fa]" disabled />
+                                            <input type="radio" class="mask mask-star-2 bg-[#61d9fa]" checked />
+                                            <input type="radio" class="mask mask-star-2 bg-[#61d9fa]" disabled />
+                                            <input type="radio" class="mask mask-star-2 bg-[#61d9fa]" disabled />
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </swiper-slide>
+                
+                <swiper-slide>
+                    <div class="card w-80 bg-base-100 shadow-lg">
+                        <div class="card-body p-5 pt-10 gap-y-10">
+                            <h1 class="card-title justify-center font-bold text-3xl">Vue</h1>
 
-                <div class="card w-80 bg-base-100 shadow-md">
-                    <div class="card-body p-5 pt-10 gap-y-10">
-                        <h1 class="card-title justify-center font-bold text-3xl">Vue</h1>
-
-                        <div class="card-actions justify-center">
-                            <div class="indicator progress-bar vue">
-                                <span class="indicator-item indicator-middle indicator-center badge bg-none border-none text-5xl">
-                                    <DeVuejsOriginal />
-                                </span>
-                                <progress class="indicator-item indicator-middle indicator-center" min="0" max="100" value="65"></progress>
-                            </div>
-                        </div>
-
-                        <div class="card-actions text-center">
-                            <div class="flex w-full">
-                                <div class="grid h-10 flex-grow place-items-center">
-                                    <h1 class="font-bold text-3xl">65%</h1>
+                            <div class="card-actions justify-center">
+                                <div class="indicator progress-bar vue">
+                                    <span class="indicator-item indicator-middle indicator-center badge bg-none border-none text-5xl">
+                                        <DeVuejsOriginal />
+                                    </span>
+                                    <progress class="indicator-item indicator-middle indicator-center" min="0" max="100" value="65"></progress>
                                 </div>
-                                <div class="divider divider-horizontal"></div>
-                                <div class="grid h-10 flex-grow place-items-center">
-                                    <div class="rating">
-                                        <input type="radio" class="mask mask-star-2 bg-[#40b882]" disabled />
-                                        <input type="radio" class="mask mask-star-2 bg-[#40b882]" disabled />
-                                        <input type="radio" class="mask mask-star-2 bg-[#40b882]" checked />
-                                        <input type="radio" class="mask mask-star-2 bg-[#40b882]" disabled />
-                                        <input type="radio" class="mask mask-star-2 bg-[#40b882]" disabled />
+                            </div>
+
+                            <div class="card-actions text-center">
+                                <div class="flex w-full">
+                                    <div class="grid h-10 flex-grow place-items-center">
+                                        <h1 class="font-bold text-3xl">65%</h1>
+                                    </div>
+                                    <div class="divider divider-horizontal"></div>
+                                    <div class="grid h-10 flex-grow place-items-center">
+                                        <div class="rating">
+                                            <input type="radio" class="mask mask-star-2 bg-[#40b882]" disabled />
+                                            <input type="radio" class="mask mask-star-2 bg-[#40b882]" disabled />
+                                            <input type="radio" class="mask mask-star-2 bg-[#40b882]" checked />
+                                            <input type="radio" class="mask mask-star-2 bg-[#40b882]" disabled />
+                                            <input type="radio" class="mask mask-star-2 bg-[#40b882]" disabled />
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </swiper-slide>
 
-                <div class="card w-80 bg-base-100 shadow-md">
-                    <div class="card-body p-5 pt-10 gap-y-10">
-                        <h1 class="card-title justify-center font-bold text-3xl">Node.JS</h1>
+                <swiper-slide>
+                    <div class="card w-80 bg-base-100 shadow-lg">
+                        <div class="card-body p-5 pt-10 gap-y-10">
+                            <h1 class="card-title justify-center font-bold text-3xl">Node.JS</h1>
 
-                        <div class="card-actions justify-center">
-                            <div class="indicator progress-bar nodejs">
-                                <span class="indicator-item indicator-middle indicator-center badge bg-none border-none text-5xl">
-                                    <DeNodejsOriginal />
-                                </span>
-                                <progress class="indicator-item indicator-middle indicator-center" min="0" max="100" value="65"></progress>
-                            </div>
-                        </div>
-
-                        <div class="card-actions text-center">
-                            <div class="flex w-full">
-                                <div class="grid h-10 flex-grow place-items-center">
-                                    <h1 class="font-bold text-3xl">65%</h1>
+                            <div class="card-actions justify-center">
+                                <div class="indicator progress-bar nodejs">
+                                    <span class="indicator-item indicator-middle indicator-center badge bg-none border-none text-5xl">
+                                        <DeNodejsOriginal />
+                                    </span>
+                                    <progress class="indicator-item indicator-middle indicator-center" min="0" max="100" value="65"></progress>
                                 </div>
-                                <div class="divider divider-horizontal"></div>
-                                <div class="grid h-10 flex-grow place-items-center">
-                                    <div class="rating">
-                                        <input type="radio" class="mask mask-star-2 bg-[#83cc29]" disabled />
-                                        <input type="radio" class="mask mask-star-2 bg-[#83cc29]" disabled />
-                                        <input type="radio" class="mask mask-star-2 bg-[#83cc29]" checked />
-                                        <input type="radio" class="mask mask-star-2 bg-[#83cc29]" disabled />
-                                        <input type="radio" class="mask mask-star-2 bg-[#83cc29]" disabled />
+                            </div>
+
+                            <div class="card-actions text-center">
+                                <div class="flex w-full">
+                                    <div class="grid h-10 flex-grow place-items-center">
+                                        <h1 class="font-bold text-3xl">65%</h1>
+                                    </div>
+                                    <div class="divider divider-horizontal"></div>
+                                    <div class="grid h-10 flex-grow place-items-center">
+                                        <div class="rating">
+                                            <input type="radio" class="mask mask-star-2 bg-[#83cc29]" disabled />
+                                            <input type="radio" class="mask mask-star-2 bg-[#83cc29]" disabled />
+                                            <input type="radio" class="mask mask-star-2 bg-[#83cc29]" checked />
+                                            <input type="radio" class="mask mask-star-2 bg-[#83cc29]" disabled />
+                                            <input type="radio" class="mask mask-star-2 bg-[#83cc29]" disabled />
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </swiper-slide>
 
-                <div class="card w-80 bg-base-100 shadow-md">
-                    <div class="card-body p-5 pt-10 gap-y-10">
-                        <h1 class="card-title justify-center font-bold text-3xl">Jquery</h1>
+                <swiper-slide>
+                    <div class="card w-80 bg-base-100 shadow-lg">
+                        <div class="card-body p-5 pt-10 gap-y-10">
+                            <h1 class="card-title justify-center font-bold text-3xl">Jquery</h1>
 
-                        <div class="card-actions justify-center">
-                            <div class="indicator progress-bar jquery">
-                                <span class="indicator-item indicator-middle indicator-center badge bg-none border-none text-5xl">
-                                    <DeJqueryOriginalWordmark />
-                                </span>
-                                <progress class="indicator-item indicator-middle indicator-center" min="0" max="100" value="85"></progress>
-                            </div>
-                        </div>
-
-                        <div class="card-actions text-center">
-                            <div class="flex w-full">
-                                <div class="grid h-10 flex-grow place-items-center">
-                                    <h1 class="font-bold text-3xl">85%</h1>
+                            <div class="card-actions justify-center">
+                                <div class="indicator progress-bar jquery">
+                                    <span class="indicator-item indicator-middle indicator-center badge bg-none border-none text-5xl">
+                                        <DeJqueryOriginalWordmark />
+                                    </span>
+                                    <progress class="indicator-item indicator-middle indicator-center" min="0" max="100" value="85"></progress>
                                 </div>
-                                <div class="divider divider-horizontal"></div>
-                                <div class="grid h-10 flex-grow place-items-center">
-                                    <div class="rating">
-                                        <input type="radio" class="mask mask-star-2 bg-[#0967ab]" disabled />
-                                        <input type="radio" class="mask mask-star-2 bg-[#0967ab]" disabled />
-                                        <input type="radio" class="mask mask-star-2 bg-[#0967ab]" disabled />
-                                        <input type="radio" class="mask mask-star-2 bg-[#0967ab]" checked />
-                                        <input type="radio" class="mask mask-star-2 bg-[#0967ab]" disabled />
+                            </div>
+
+                            <div class="card-actions text-center">
+                                <div class="flex w-full">
+                                    <div class="grid h-10 flex-grow place-items-center">
+                                        <h1 class="font-bold text-3xl">85%</h1>
+                                    </div>
+                                    <div class="divider divider-horizontal"></div>
+                                    <div class="grid h-10 flex-grow place-items-center">
+                                        <div class="rating">
+                                            <input type="radio" class="mask mask-star-2 bg-[#0967ab]" disabled />
+                                            <input type="radio" class="mask mask-star-2 bg-[#0967ab]" disabled />
+                                            <input type="radio" class="mask mask-star-2 bg-[#0967ab]" disabled />
+                                            <input type="radio" class="mask mask-star-2 bg-[#0967ab]" checked />
+                                            <input type="radio" class="mask mask-star-2 bg-[#0967ab]" disabled />
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </swiper-slide>
 
-                <div class="card w-80 bg-base-100 shadow-md">
-                    <div class="card-body p-5 pt-10 gap-y-10">
-                        <h1 class="card-title justify-center font-bold text-3xl">Bootstrap</h1>
+                <swiper-slide>
+                    <div class="card w-80 bg-base-100 shadow-lg">
+                        <div class="card-body p-5 pt-10 gap-y-10">
+                            <h1 class="card-title justify-center font-bold text-3xl">Bootstrap</h1>
 
-                        <div class="card-actions justify-center">
-                            <div class="indicator progress-bar bootstrap">
-                                <span class="indicator-item indicator-middle indicator-center badge bg-none border-none text-5xl">
-                                    <DeBootstrapPlain />
-                                </span>
-                                <progress class="indicator-item indicator-middle indicator-center" min="0" max="100" value="75"></progress>
-                            </div>
-                        </div>
-
-                        <div class="card-actions text-center">
-                            <div class="flex w-full">
-                                <div class="grid h-10 flex-grow place-items-center">
-                                    <h1 class="font-bold text-3xl">75%</h1>
+                            <div class="card-actions justify-center">
+                                <div class="indicator progress-bar bootstrap">
+                                    <span class="indicator-item indicator-middle indicator-center badge bg-none border-none text-5xl">
+                                        <DeBootstrapPlain />
+                                    </span>
+                                    <progress class="indicator-item indicator-middle indicator-center" min="0" max="100" value="75"></progress>
                                 </div>
-                                <div class="divider divider-horizontal"></div>
-                                <div class="grid h-10 flex-grow place-items-center">
-                                    <div class="rating">
-                                        <input type="radio" class="mask mask-star-2 bg-[#7e11fa]" disabled />
-                                        <input type="radio" class="mask mask-star-2 bg-[#7e11fa]" disabled />
-                                        <input type="radio" class="mask mask-star-2 bg-[#7e11fa]" disabled />
-                                        <input type="radio" class="mask mask-star-2 bg-[#7e11fa]" checked />
-                                        <input type="radio" class="mask mask-star-2 bg-[#7e11fa]" disabled />
+                            </div>
+
+                            <div class="card-actions text-center">
+                                <div class="flex w-full">
+                                    <div class="grid h-10 flex-grow place-items-center">
+                                        <h1 class="font-bold text-3xl">75%</h1>
+                                    </div>
+                                    <div class="divider divider-horizontal"></div>
+                                    <div class="grid h-10 flex-grow place-items-center">
+                                        <div class="rating">
+                                            <input type="radio" class="mask mask-star-2 bg-[#7e11fa]" disabled />
+                                            <input type="radio" class="mask mask-star-2 bg-[#7e11fa]" disabled />
+                                            <input type="radio" class="mask mask-star-2 bg-[#7e11fa]" disabled />
+                                            <input type="radio" class="mask mask-star-2 bg-[#7e11fa]" checked />
+                                            <input type="radio" class="mask mask-star-2 bg-[#7e11fa]" disabled />
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </swiper-slide>
 
-                <div class="card w-80 bg-base-100 shadow-md">
-                    <div class="card-body p-5 pt-10 gap-y-10">
-                        <h1 class="card-title justify-center font-bold text-3xl">Tailwind</h1>
+                <swiper-slide>
+                    <div class="card w-80 bg-base-100 shadow-lg">
+                        <div class="card-body p-5 pt-10 gap-y-10">
+                            <h1 class="card-title justify-center font-bold text-3xl">Tailwind</h1>
 
-                        <div class="card-actions justify-center">
-                            <div class="indicator progress-bar tailwind">
-                                <span class="indicator-item indicator-middle indicator-center badge bg-none border-none text-5xl">
-                                    <DeTailwindcssPlain />
-                                </span>
-                                <progress class="indicator-item indicator-middle indicator-center" min="0" max="100" value="70"></progress>
-                            </div>
-                        </div>
-
-                        <div class="card-actions text-center">
-                            <div class="flex w-full">
-                                <div class="grid h-10 flex-grow place-items-center">
-                                    <h1 class="font-bold text-3xl">70%</h1>
+                            <div class="card-actions justify-center">
+                                <div class="indicator progress-bar tailwind">
+                                    <span class="indicator-item indicator-middle indicator-center badge bg-none border-none text-5xl">
+                                        <DeTailwindcssPlain />
+                                    </span>
+                                    <progress class="indicator-item indicator-middle indicator-center" min="0" max="100" value="70"></progress>
                                 </div>
-                                <div class="divider divider-horizontal"></div>
-                                <div class="grid h-10 flex-grow place-items-center">
-                                    <div class="rating">
-                                        <input type="radio" class="mask mask-star-2 bg-[#37b3ac]" disabled />
-                                        <input type="radio" class="mask mask-star-2 bg-[#37b3ac]" disabled />
-                                        <input type="radio" class="mask mask-star-2 bg-[#37b3ac]" disabled />
-                                        <input type="radio" class="mask mask-star-2 bg-[#37b3ac]" checked />
-                                        <input type="radio" class="mask mask-star-2 bg-[#37b3ac]" disabled />
+                            </div>
+
+                            <div class="card-actions text-center">
+                                <div class="flex w-full">
+                                    <div class="grid h-10 flex-grow place-items-center">
+                                        <h1 class="font-bold text-3xl">70%</h1>
+                                    </div>
+                                    <div class="divider divider-horizontal"></div>
+                                    <div class="grid h-10 flex-grow place-items-center">
+                                        <div class="rating">
+                                            <input type="radio" class="mask mask-star-2 bg-[#37b3ac]" disabled />
+                                            <input type="radio" class="mask mask-star-2 bg-[#37b3ac]" disabled />
+                                            <input type="radio" class="mask mask-star-2 bg-[#37b3ac]" disabled />
+                                            <input type="radio" class="mask mask-star-2 bg-[#37b3ac]" checked />
+                                            <input type="radio" class="mask mask-star-2 bg-[#37b3ac]" disabled />
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </swiper-slide>
 
-            </div>
+            </swiper>
         </div>
     </div>
 
@@ -527,6 +564,19 @@
     import { DeBootstrapPlain } from "@kalimahapps/vue-icons";
     import { DeTailwindcssPlain } from "@kalimahapps/vue-icons";
 
+    // Import Swiper Vue.js components
+    import { Swiper, SwiperSlide } from 'swiper/vue';
+
+    // Import Swiper styles
+    import 'swiper/css';
+
+    import 'swiper/css/effect-coverflow';
+    import 'swiper/css/pagination';
+
+
+    // import required modules
+    import { EffectCoverflow, Pagination } from 'swiper/modules';
+
     export default {
         components: {
 			DeHtml5Original,
@@ -543,12 +593,36 @@
             DeNodejsOriginal,
             DeJqueryOriginalWordmark,
             DeBootstrapPlain,
-            DeTailwindcssPlain
-		}
+            DeTailwindcssPlain,
+            Swiper,
+            SwiperSlide,
+		}, setup() {
+        return {
+            modules: [EffectCoverflow, Pagination],
+        };
+    },
     }
 </script>
 
 <style>
+    .swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    }
+
+    .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 300px;
+    }
+
+    .swiper-slide .card {
+        display: block;
+        border-radius: 1rem;
+        width: 100%;
+    }
+
     @property --progress-value {
         syntax: '<integer>';
         inherits: false;

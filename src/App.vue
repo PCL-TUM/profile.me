@@ -3,6 +3,7 @@
   import About from './components/About.vue';
   import Skill from './components/Skill.vue';
   import Experience from './components/Experience.vue'
+  import Hero from './components/Hero.vue';
 </script>
 
 <template>
@@ -10,6 +11,7 @@
     <Navbar />  <!-- component Navbar -->
     <div class="container w-full mx-auto px-5">
       <div class="sm:px-5">
+        <Hero />
         <About />
         <Skill />
         <Experience />

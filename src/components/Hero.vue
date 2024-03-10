@@ -10,49 +10,29 @@
 				<div class="flex-grow flex justify-center w-full xl:w-1/2 xl:items-center xl:justify-start">
 					<div class="text-left 2xl:text-left">
 						<div class="text-center xl:text-start">
-							<h4 class="font-normal text-base uppercase">My intro</h4>
-							<h1 class="font-bold text-4xl">About Me</h1>
-							<h4 class="pt-5 font-normal text-base text-balance">
-								Hi, I'm Tum. I love design websites on the Frontend, but I can work on the Backend as well. 
-								and I love learning about Web Development with New framework or library. 
-								of which I am adapt and learn quickly friendly because I'm funny.
-							</h4>
+							<div class="flex flex-col gap-2">
+								<h4 class="font-normal text-base tracking-wide uppercase">Web developer</h4>
+								<h1 class="font-bold text-4xl tracking-tight xl:text-5xl">Hello, My name is</h1>
+								<h1 class="font-bold text-5xl tracking-tight xl:text-6xl">Phichet Liwvaha</h1>
+								<h4 class="pt-3 font-normal text-base text-balance">
+									Hi, I'm quickly adapting and learning, friendly, and easy to get along with. 
+									Able to follow regulations ready to learn and always receive new knowledge
+								</h4>
+							</div>
+							<div class="flex flex-row gap-5 pt-10 justify-center xl:justify-start">
+								<button class="btn rounded-full px-6">
+									GitHub
+									<span class="text-lg"><ByGithub /></span>
+								</button>
+								<button class="btn rounded-full px-6">
+									Dowload CV
+									<span class="text-lg"><AkDownload /></span>
+								</button>
+							</div>
+							
+							
 						</div>
 
-						<div class="pt-5 flex flex-col gap-y-1 ps-2 sm:ps-32 sm:pe-20 md:ps-48 md:pe-20 lg:ps-80 lg:pe-44 xl:px-0">
-							<div class="flex flex-row text-md">
-								<span class="text-xl p-0.5 px-2"><PhBoldUser /></span>
-								<span class="font-semibold me-3 sm:me-0 w-2/5 sm:w-2/4 xl:w-1/4">Name </span>
-								<span class="font-normal w-4/5">Phichet Liwvaha</span>
-							</div>
-							<div class="flex flex-row text-md">
-								<span class="text-xl p-0.5 px-2"><PhBoldGraduationCap /></span>
-								<span class="font-semibold me-3 sm:me-0 w-2/5 sm:w-2/4 xl:w-1/4">Education </span>
-								<span class="font-normal w-4/5">Computer Engineering</span>
-							</div>
-							<div class="flex flex-row text-md">
-								<span class="text-xl p-0.5 px-2"><PhBoldCalendar /></span>
-								<span class="font-semibold me-3 sm:me-0 w-2/5 sm:w-2/4 xl:w-1/4">Date of birth </span>
-								<span class="font-normal w-4/5">September 02, 1999</span>
-							</div>
-							<div class="flex flex-row text-md">
-								<span class="text-xl p-0.5 px-2"><PhBoldEnvelopeSimple /></span>
-								<span class="font-semibold me-3 sm:me-0 w-2/5 sm:w-2/4 xl:w-1/4">Email </span>
-								<span class="font-normal w-4/5">phichet.pcl@gmail.com</span>
-							</div>
-							<div class="flex flex-row text-md">
-								<span class="text-xl p-0.5 px-2"><PhBoldPhone /></span>
-								<span class="font-semibold me-3 sm:me-0 w-2/5 sm:w-2/4 xl:w-1/4">Phone </span>
-								<span class="font-normal w-4/5">097-234-0942</span>
-							</div>
-							<div class="flex flex-row text-md">
-								<span class="text-xl p-0.5 px-2"><PhBoldMapPin /></span>
-								<span class="font-semibold me-3 sm:me-0 w-2/5 sm:w-2/4 xl:w-1/4">Address </span>
-								<span class="font-normal w-4/5 lg:hidden">69 Moo.1, Khun Thale,<br /> Mueang Surat Thani,<br /> Surat Thani, 84100</span>
-								<span class="font-normal w-4/5 hidden lg:flex">69 Moo.1, Khun Thale, Mueang Surat Thani, Surat Thani, 84100</span>
-							</div>
-						</div>
-						
 					</div> 
 
 				</div>
@@ -63,24 +43,17 @@
 </template>
 
 <script>
-	import { PhBoldUser } from "@kalimahapps/vue-icons";
-	import { PhBoldGraduationCap } from "@kalimahapps/vue-icons";
-	import { PhBoldCalendar } from "@kalimahapps/vue-icons";
-	import { PhBoldEnvelopeSimple } from "@kalimahapps/vue-icons";
-	import { PhBoldPhone } from "@kalimahapps/vue-icons";
-	import { PhBoldMapPin } from "@kalimahapps/vue-icons";
+import { ByGithub } from "@kalimahapps/vue-icons";
+import { AkDownload } from "@kalimahapps/vue-icons";
+
 	export default {
 		components: {
-			PhBoldUser,
-			PhBoldGraduationCap,
-			PhBoldCalendar,
-			PhBoldEnvelopeSimple,
-			PhBoldPhone,
-			PhBoldMapPin,
+			ByGithub,
+			AkDownload
 		}
 	}
 </script>
 
 <style>
-    
+	
 </style>
