@@ -7,7 +7,7 @@
 </script>
 
 <template>
-  <div>
+  <div class="">
     <Navbar />  <!-- component Navbar -->
     <div class="container w-full mx-auto px-5">
       <div class="sm:px-5">
@@ -19,5 +19,3 @@
     </div>
   </div>
 </template>
-
-

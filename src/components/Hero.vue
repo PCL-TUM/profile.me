@@ -12,7 +12,7 @@
 						<div class="text-center xl:text-start">
 							<div class="flex flex-col gap-2">
 								<h4 class="font-normal text-base tracking-wide uppercase">Web developer</h4>
-								<h1 class="font-bold text-4xl tracking-tight xl:text-5xl">Hello, My name is</h1>
+								<h1 class="font-bold text-4xl tracking-tight xl:text-6xl">Hello, My name is</h1>
 								<h1 class="font-bold text-5xl tracking-tight xl:text-6xl">Phichet Liwvaha</h1>
 								<h4 class="pt-3 font-normal text-base text-balance">
 									Hi, I'm quickly adapting and learning, friendly, and easy to get along with. 

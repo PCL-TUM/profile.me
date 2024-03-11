@@ -160,6 +160,41 @@
                 <swiper-slide>
                     <div class="card w-80 bg-base-100 shadow-lg">
                         <div class="card-body p-5 pt-10 gap-y-10">
+                            <h1 class="card-title justify-center font-bold text-3xl">MySQL</h1>
+
+                            <div class="card-actions justify-center">
+                                <div class="indicator progress-bar mysql">
+                                    <span class="indicator-item indicator-middle indicator-center badge bg-none border-none text-5xl">
+                                        <DeMysqlOriginalWordmark />
+                                    </span>
+                                    <progress class="indicator-item indicator-middle indicator-center" min="0" max="100" value="60"></progress>
+                                </div>
+                            </div>
+
+                            <div class="card-actions text-center">
+                                <div class="flex w-full">
+                                    <div class="grid h-10 flex-grow place-items-center">
+                                        <h1 class="font-bold text-3xl">60%</h1>
+                                    </div>
+                                    <div class="divider divider-horizontal"></div>
+                                    <div class="grid h-10 flex-grow place-items-center">
+                                        <div class="rating">
+                                            <input type="radio" class="mask mask-star-2 bg-[#00608a]" disabled />
+                                            <input type="radio" class="mask mask-star-2 bg-[#00608a]" disabled />
+                                            <input type="radio" class="mask mask-star-2 bg-[#00608a]" checked />
+                                            <input type="radio" class="mask mask-star-2 bg-[#00608a]" disabled />
+                                            <input type="radio" class="mask mask-star-2 bg-[#00608a]" disabled />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </swiper-slide>
+
+                <swiper-slide>
+                    <div class="card w-80 bg-base-100 shadow-lg">
+                        <div class="card-body p-5 pt-10 gap-y-10">
                             <h1 class="card-title justify-center font-bold text-3xl">Java</h1>
 
                             <div class="card-actions justify-center">
@@ -552,6 +587,7 @@
     import { DeCss3Original } from "@kalimahapps/vue-icons";
     import { DeJavascriptOriginal } from "@kalimahapps/vue-icons";
     import { DePhpPlain } from "@kalimahapps/vue-icons";
+    import { DeMysqlOriginalWordmark } from "@kalimahapps/vue-icons";
     import { DeJavaOriginal } from "@kalimahapps/vue-icons";
     import { DePythonOriginalWordmark } from "@kalimahapps/vue-icons";
     import { DeCsharpOriginal } from "@kalimahapps/vue-icons";
@@ -582,6 +618,7 @@
 			DeHtml5Original,
             DeCss3Original,
             DeJavascriptOriginal,
+            DeMysqlOriginalWordmark,
             DePhpPlain,
             DeJavaOriginal,
             DePythonOriginalWordmark,
@@ -643,6 +680,10 @@
 
     @keyframes php-progress {
         to { --progress-value: 80; }
+    }
+
+    @keyframes mysql-progress {
+        to { --progress-value: 60; }
     }
 
     @keyframes java-progress {
@@ -747,6 +788,17 @@
 
     .php::before {
         animation: php-progress 2s 1 forwards;
+    }
+
+    .mysql {
+        background: 
+            radial-gradient(closest-side, white 79%, transparent 80% 100%, white 0),
+            conic-gradient(rgb(0, 96, 138, 0.9) calc(var(--progress-value) * 1%), rgb(0, 96, 138, 0.3) 0);
+        animation: mysql-progress 2s 1 forwards;
+    }
+
+    .mysql::before {
+        animation: mysql-progress 2s 1 forwards;
     }
 
     .java {
