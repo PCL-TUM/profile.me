@@ -19,16 +19,16 @@
                         <form ref="form" @submit.prevent="sendEmail">
                             <div class="flex flex-col gap-3">
                                 <div class="flex flex-col lg:flex-row gap-3">
-                                    <input type="text" class="input input-bordered text-base w-full" placeholder="Your Name" />
-                                    <input type="text" class="input input-bordered text-base w-full" placeholder="Your Email" />
+                                    <input type="text" class="input input-bordered text-base w-full" name="user_name" placeholder="Your Name" required/>
+                                    <input type="email" class="input input-bordered text-base w-full" name="user_email" placeholder="Your Email" required/>
                                 </div>
                                 <div>
-                                    <input type="text" class="input input-bordered text-base w-full" placeholder="Subject" />
+                                    <input type="text" class="input input-bordered text-base w-full" name="subject" placeholder="Subject"/>
                                 </div>
                                 <div>
-                                    <textarea type="text" class="textarea textarea-bordered textarea-md text-base w-full h-52" placeholder="Message"></textarea>
+                                    <textarea type="text" class="textarea textarea-bordered textarea-md text-base w-full h-52" name="message" placeholder="Message"></textarea>
                                 </div>
-                                <button type="submit" class="btn rounded-full w-52 mx-auto px-6">
+                                <button type="submit" value="Send" class="btn rounded-full w-52 mx-auto px-6">
                                     Send Message
                                     <span class="text-lg"><FeSend /></span>
                                 </button>
@@ -85,6 +85,8 @@
     import { BxEnvelope } from "@kalimahapps/vue-icons";
     import { GvWorld } from "@kalimahapps/vue-icons";
 
+    import emailjs from '@emailjs/browser';
+
     export default {
         components : {
             FeSend,
@@ -92,8 +94,23 @@
             BsTelephone,
             BxEnvelope,
             GvWorld
-        }
-        
+        },
+        methods: {
+            sendEmail() {
+                emailjs
+                    .sendForm('service_9i6k2td', 'template_aolv1sc', this.$refs.form, {
+                    publicKey: 'fR0rWhNF4IsOCQ2gq',
+                    })
+                    .then(
+                    () => {
+                        console.log('SUCCESS!');
+                    },
+                    (error) => {
+                        console.log('FAILED...', error.text);
+                    },
+                );
+            },
+        },
     }
 </script>
 <style>
