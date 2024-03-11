@@ -4,6 +4,7 @@
   import Skill from './components/Skill.vue';
   import Experience from './components/Experience.vue'
   import Hero from './components/Hero.vue';
+  import Contact from './components/Contact.vue';
 </script>
 
 <template>
@@ -15,6 +16,7 @@
         <About />
         <Skill />
         <Experience />
+        <Contact />
       </div>
     </div>
   </div>
