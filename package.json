@@ -13,7 +13,8 @@
     "@kalimahapps/vue-icons": "^1.4.0",
     "emailjs-com": "^3.2.0",
     "swiper": "^11.0.7",
-    "vue": "^3.4.19"
+    "vue": "^3.4.19",
+    "vue-sweetalert2": "^5.0.5"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",

@@ -731,7 +731,7 @@
     }
 
     .progress-bar {
-        width: 120px;
+        width: 120px !important;
         height: 120px;
         border-radius: 50%;
         

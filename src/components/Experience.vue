@@ -68,15 +68,22 @@
                 <div id="item1" class="carousel-item relative w-full">
                   <img src="https://flowbite.s3.amazonaws.com/docs/device-mockups/laptop-screen.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt=""> 
                   <div class="absolute flex justify-between transform -translate-y-1/3 left-1 right-1 top-1/2">
-                    <a href="#item4" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❮</a> 
+                    <a href="#item3" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❮</a> 
                     <a href="#item2" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❯</a>
                   </div>   
                 </div> 
                 <div id="item2" class="carousel-item relative w-full">
-                  <img src="https://flowbite.s3.amazonaws.com/docs/device-mockups/laptop-screen.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt="">
+                  <img src="https://swiperjs.com/demos/images/nature-2.jpg" class="h-[156px] md:h-[278px] w-full rounded-lg" alt="">
                   <div class="absolute flex justify-between transform -translate-y-1/3 left-1 right-1 top-1/2">
                     <a href="#item1" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❮</a> 
                     <a href="#item3" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❯</a>
+                  </div> 
+                </div> 
+                <div id="item3" class="carousel-item relative w-full">
+                  <img src="https://swiperjs.com/demos/images/nature-1.jpg" class="h-[156px] md:h-[278px] w-full rounded-lg" alt="">
+                  <div class="absolute flex justify-between transform -translate-y-1/3 left-1 right-1 top-1/2">
+                    <a href="#item2" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❮</a> 
+                    <a href="#item1" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❯</a>
                   </div> 
                 </div> 
               </div>

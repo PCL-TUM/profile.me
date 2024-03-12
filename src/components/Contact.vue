@@ -19,14 +19,14 @@
                         <form ref="form" @submit.prevent="sendEmail">
                             <div class="flex flex-col gap-3">
                                 <div class="flex flex-col lg:flex-row gap-3">
-                                    <input type="text" class="input input-bordered text-base w-full" name="user_name" placeholder="Your Name" required/>
-                                    <input type="email" class="input input-bordered text-base w-full" name="user_email" placeholder="Your Email" required/>
+                                    <input type="text" class="input input-bordered text-base w-full" ref="user_name" name="user_name" placeholder="Your Name"/>
+                                    <input type="email" class="input input-bordered text-base w-full" ref="user_email" name="user_email" placeholder="Your Email"/>
                                 </div>
                                 <div>
-                                    <input type="text" class="input input-bordered text-base w-full" name="subject" placeholder="Subject"/>
+                                    <input type="text" class="input input-bordered text-base w-full" ref="subject" name="subject" placeholder="Subject"/>
                                 </div>
                                 <div>
-                                    <textarea type="text" class="textarea textarea-bordered textarea-md text-base w-full h-52" name="message" placeholder="Message"></textarea>
+                                    <textarea type="text" class="textarea textarea-bordered textarea-md text-base w-full h-52" ref="message" name="message" placeholder="Message"></textarea>
                                 </div>
                                 <button type="submit" value="Send" class="btn rounded-full w-52 mx-auto px-6">
                                     Send Message
@@ -97,18 +97,41 @@
         },
         methods: {
             sendEmail() {
-                emailjs
-                    .sendForm('service_9i6k2td', 'template_aolv1sc', this.$refs.form, {
-                    publicKey: 'fR0rWhNF4IsOCQ2gq',
-                    })
-                    .then(
-                    () => {
-                        console.log('SUCCESS!');
-                    },
-                    (error) => {
-                        console.log('FAILED...', error.text);
-                    },
-                );
+                let user_name = this.$refs.user_name.value;
+                let user_email = this.$refs.user_email.value;
+                let subject = this.$refs.subject.value;
+                let message = this.$refs.message.value;
+
+                if ( user_name == '' || user_email == '' || subject == '' || message == '') {
+                    this.$swal({
+                        title: "Invalid",
+                        text: "Please fill in complete information.",
+                        icon: "warning",
+                    });
+                } else {
+                    emailjs
+                        .sendForm('service_9i6k2td', 'template_aolv1sc', this.$refs.form, {
+                        publicKey: 'fR0rWhNF4IsOCQ2gq',
+                        })
+                        .then(
+                        () => {
+                            this.$swal({
+                                title: "Success",
+                                text: "Email sent successfully",
+                                icon: "success"
+                            });
+                        },
+                        (error) => {
+                            this.$swal({
+                                title: "Failed",
+                                text: error.text,
+                                icon: "error"
+                            });
+                            // console.log('FAILED...', error.text);
+                        },
+                    );
+                }
+                
             },
         },
     }

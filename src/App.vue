@@ -5,6 +5,7 @@
   import Experience from './components/Experience.vue'
   import Hero from './components/Hero.vue';
   import Contact from './components/Contact.vue';
+  import Footer from './components/Footer.vue'
 </script>
 
 <template>
@@ -19,5 +20,6 @@
         <Contact />
       </div>
     </div>
+    <Footer />
   </div>
 </template>
