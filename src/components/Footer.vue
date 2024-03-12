@@ -1,7 +1,7 @@
 <template lang="">
     <div>
 
-      <footer class="footer footer-center p-10 bg-base-200 text-base-content rounded">
+      <footer class="footer footer-center p-10 bg-blue-950 text-base-content rounded-t-xl sm:rounded-none">
         <nav class="grid grid-flow-col gap-4">
           <a class="link link-hover">Home</a>
           <a class="link link-hover">About</a>

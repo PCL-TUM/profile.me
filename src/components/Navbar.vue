@@ -1,6 +1,6 @@
 <template lang="">
   
-  <div class="text-base-content sticky top-0 z-30 w-full justify-center backdrop-blur transition-shadow duration-100 [transform:translate3d(0,0,0)] shadow-sm">
+  <div class="text-base-content bg-base-100 sticky top-0 z-30 w-full justify-center backdrop-blur transition-shadow duration-100 [transform:translate3d(0,0,0)] rounded-b-xl shadow-sm">
     
     <!-- begin mobile screen -->
     <div class="sm:hidden">

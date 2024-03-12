@@ -11,15 +11,47 @@
 <template>
   <div class="">
     <Navbar />  <!-- component Navbar -->
-    <div class="container w-full mx-auto px-5">
-      <div class="sm:px-5">
-        <Hero />
-        <About />
-        <Skill />
-        <Experience />
-        <Contact />
+    <!-- begin component -->
+    <div class="bg-blue-950">
+      <div class="container w-full mx-auto px-5">
+        <div class="sm:px-5">
+          <Hero />
+        </div>
       </div>
     </div>
-    <Footer />
+
+    <div class="bg-slate-50">
+      <div class="container w-full mx-auto px-5">
+        <div class="sm:px-5">
+          <About />
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-white py-28">
+      <div class="container w-full mx-auto px-5">
+        <div class="sm:px-5">
+          <Skill />
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-slate-50 py-28">
+      <div class="container w-full mx-auto px-5">
+        <div class="sm:px-5">
+          <Experience />
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-white">
+      <div class="container w-full mx-auto px-5">
+        <div class="sm:px-5">
+          <Contact />
+        </div>
+      </div>
+    </div>
+      <!-- end component -->
+    <Footer /> <!-- component Footer -->
   </div>
 </template>
