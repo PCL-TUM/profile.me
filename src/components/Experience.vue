@@ -326,12 +326,18 @@
               This project freelance job. It is a website developed with EJS website format CRUD (Create, Read, Update, Delete). And notify borrow equipment vie Socket.io
             </h4>
             <h4 class="pt-5 font-bold text-xl">Tools</h4>
-            <div class="pt-3 font-bold text-5xl flex justify-center 2xl:justify-start gap-4"> 
-              <VsFileTypeVite />
-              <DeVuejsOriginal />
-              <DeTailwindcssPlain />
-              <div class="flex flex-row gap-4">
-                <img src="https://daisyui.com/images/daisyui-logo/daisyui-logotype.svg" class="h-auto max-w-36" alt="">
+            <div class="flex flex-col 2xl:flex-row 2xl:gap-4">
+              <div class="flex flex-row justify-center 2xl:justify-start pt-3 font-bold text-5xl gap-4"> 
+                <div class="">
+                  <img src="https://miro.medium.com/v2/resize:fit:1400/1*DAIoObWqwP2P-EMJjBEdqQ.png" class="max-h-12 max-w-auto" alt="">
+                </div>
+                <DeJqueryOriginalWordmark />
+                <DeMysqlOriginalWordmark />
+                <DeBootstrapPlain />
+              </div>
+              <div class="flex flex-row justify-center 2xl:pt-2 gap-4">
+                <img src="https://i0.wp.com/blog.knoldus.com/wp-content/uploads/2021/09/nodejs.png?fit=512%2C256&ssl=1" class="max-h-12 max-w-auto" alt="">
+                <img src="https://miro.medium.com/v2/resize:fit:811/1*tOitxCwTNcS3ESstLylmtg.png" class="max-h-12 max-w-auto" alt="">
               </div>
             </div>
           </div>
@@ -427,11 +433,12 @@
             </h4>
             <h4 class="pt-5 font-bold text-xl">Tools</h4>
             <div class="pt-3 font-bold text-5xl flex justify-center 2xl:justify-start gap-4"> 
-              <VsFileTypeVite />
-              <DeVuejsOriginal />
-              <DeTailwindcssPlain />
+              <DePhpPlain />
+              <DeJqueryOriginalWordmark />
+              <DeMysqlOriginalWordmark />
+              <DeBootstrapPlain />
               <div class="flex flex-row gap-4">
-                <img src="https://daisyui.com/images/daisyui-logo/daisyui-logotype.svg" class="h-auto max-w-36" alt="">
+                <img src="https://www.apachefriends.org/images/xampp-logo-ac950edf.svg" class="h-auto max-w-10" alt="">
               </div>
             </div>
           </div>
