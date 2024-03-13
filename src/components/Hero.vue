@@ -1,6 +1,6 @@
 <template lang="">
 	<div>
-		<div class="py-16 grid gap-y-20">
+		<div class="py-16 sm:pt-16 sm:pb-5 grid gap-y-20">
       
 			<div class="flex flex-col w-full xl:flex-row-reverse gap-4"> 
 				<div class="flex-grow justify-center w-full xl:w-1/2 hidden xl:flex">

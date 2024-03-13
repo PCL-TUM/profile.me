@@ -4,7 +4,7 @@
     
     <!-- begin mobile screen -->
     <div class="sm:hidden">
-      <div class="navbar bg-base-100 rounded-b-xl shadow-md">
+      <div class="navbar rounded-b-xl shadow-md">
         <div class="navbar-start">
           <div class="dropdown">
             <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
@@ -46,7 +46,7 @@
     <!-- begin windows screen -->
     <div class="hidden sm:flex rounded-b-xl shadow-md">
       <div class="container w-full mx-auto px-5">
-        <div class="navbar bg-base-100 border-b-1">
+        <div class="navbar border-b-1">
           <div class="flex-1">
             <a class="btn btn-ghost font-semibold text-xl hover:bg-white">
               <img src="https://cdn-icons-png.flaticon.com/512/7316/7316704.png" width="25" height="15" alt="" class="pb-0.5">
