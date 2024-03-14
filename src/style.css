@@ -30,3 +30,19 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
 div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm:focus {
     box-shadow: 0 0 0 3px rgb(242, 247, 255 / 50%);
 }
+
+.swiper-button-prev:after, .swiper-button-next:after {
+    text-align: center;
+    font-family: swiper-icons;
+    font-size: 8px !important;
+    text-transform: none !important;
+    letter-spacing: 0;
+    font-variant: initial;
+    line-height: 1;
+    color: var(--fallback-bc, oklch(var(--bc) / var(--tw-bg-opacity)));
+    background-color: oklch(var(--btn-color, var(--b2)) / var(--tw-bg-opacity));
+    height: 1.75rem;
+    width: 3rem;
+    border-radius: 9999px;
+    padding: 10px;
+}

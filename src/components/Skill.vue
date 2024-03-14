@@ -1,6 +1,6 @@
 <template lang="">
     <div>
-        <div class="text-center xl:px-10">
+        <div class="text-center">
 
             <h4 class="font-normal text-base uppercase">Abilities</h4>
             <h1 class="font-bold text-4xl">My Skills</h1>

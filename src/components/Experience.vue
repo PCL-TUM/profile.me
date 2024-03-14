@@ -9,22 +9,20 @@
           <div class="relative mx-auto border-gray-800 bg-gray-800 border-[8px] rounded-t-xl h-[172px] max-w-[301px] md:h-[294px] md:max-w-[512px]">
             <div class="rounded-lg overflow-hidden h-[156px] md:h-[278px] bg-white">
               <!-- begin carousel -->
-              <div class="carousel carousel-center">
-                <div id="p_folio_item1" class="carousel-item relative w-full">
-                  <img src="https://flowbite.s3.amazonaws.com/docs/device-mockups/laptop-screen.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt=""> 
-                  <div class="absolute flex justify-between transform -translate-y-1/3 left-1 right-1 top-1/2">
-                    <a href="#p_folio_item2" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❮</a> 
-                    <a href="#p_folio_item2" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❯</a>
-                  </div>   
-                </div> 
-                <div id="p_folio_item2" class="carousel-item relative w-full">
-                  <img src="https://flowbite.s3.amazonaws.com/docs/device-mockups/laptop-screen.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt="">
-                  <div class="absolute flex justify-between transform -translate-y-1/3 left-1 right-1 top-1/2">
-                    <a href="#p_folio_item1" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❮</a> 
-                    <a href="#p_folio_item1" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❯</a>
-                  </div> 
-                </div> 
-              </div>
+              <swiper
+                :pagination="{}"
+                :loop="true"
+                :navigation="true"
+                :modules="modules"
+                class="mySwiper py-0"
+              >
+                <swiper-slide>
+                  <img src="../assets/images/project/profile/pf-1.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt=""> 
+                </swiper-slide>
+                <swiper-slide>
+                  <img src="../assets/images/project/profile/pf-2.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt=""> 
+                </swiper-slide>
+              </swiper>
               <!-- end carousel -->
             </div>
           </div>
@@ -64,58 +62,38 @@
           <div class="relative mx-auto border-gray-800 bg-gray-800 border-[8px] rounded-t-xl h-[172px] max-w-[301px] md:h-[294px] md:max-w-[512px]">
             <div class="rounded-lg overflow-hidden h-[156px] md:h-[278px] bg-white">
               <!-- begin carousel -->
-              <div class="carousel carousel-center">
-                <div id="psip-item1" class="carousel-item relative w-full">
+              <swiper
+                :pagination="{}"
+                :loop="true"
+                :navigation="true"
+                :modules="modules"
+                class="mySwiper py-0"
+              >
+                <swiper-slide>
                   <img src="../assets/images/project/psip/psip-1-1.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt=""> 
-                  <div class="absolute flex justify-between transform -translate-y-1/3 left-1 right-1 top-1/2">
-                    <a href="#psip-item7" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❮</a> 
-                    <a href="#psip-item2" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❯</a>
-                  </div>   
-                </div> 
-                <div id="psip-item2" class="carousel-item relative w-full">
-                  <img src="../assets/images/project/psip/psip-1-2.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt="">
-                  <div class="absolute flex justify-between transform -translate-y-1/3 left-1 right-1 top-1/2">
-                    <a href="#psip-item1" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❮</a> 
-                    <a href="#psip-item3" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❯</a>
-                  </div> 
-                </div> 
-                <div id="psip-item3" class="carousel-item relative w-full">
-                  <img src="../assets/images/project/psip/psip-3.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt="">
-                  <div class="absolute flex justify-between transform -translate-y-1/3 left-1 right-1 top-1/2">
-                    <a href="#psip-item2" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❮</a> 
-                    <a href="#psip-item4" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❯</a>
-                  </div> 
-                </div> 
-                <div id="psip-item4" class="carousel-item relative w-full">
-                  <img src="../assets/images/project/psip/psip-5.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt="">
-                  <div class="absolute flex justify-between transform -translate-y-1/3 left-1 right-1 top-1/2">
-                    <a href="#psip-item3" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❮</a> 
-                    <a href="#psip-item5" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❯</a>
-                  </div> 
-                </div> 
-                <div id="psip-item5" class="carousel-item relative w-full">
-                  <img src="../assets/images/project/psip/psip-6.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt="">
-                  <div class="absolute flex justify-between transform -translate-y-1/3 left-1 right-1 top-1/2">
-                    <a href="#psip-item4" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❮</a> 
-                    <a href="#psip-item6" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❯</a>
-                  </div> 
-                </div> 
-                <div id="psip-item6" class="carousel-item relative w-full">
-                  <img src="../assets/images/project/psip/psip-7.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt="">
-                  <div class="absolute flex justify-between transform -translate-y-1/3 left-1 right-1 top-1/2">
-                    <a href="#psip-item5" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❮</a> 
-                    <a href="#psip-item7" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❯</a>
-                  </div> 
-                </div> 
-                <div id="psip-item7" class="carousel-item relative w-full">
-                  <img src="../assets/images/project/psip/psip-8.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt="">
-                  <div class="absolute flex justify-between transform -translate-y-1/3 left-1 right-1 top-1/2">
-                    <a href="#psip-item6" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❮</a> 
-                    <a href="#psip-item1" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❯</a>
-                  </div> 
-                </div> 
-
-              </div>
+                </swiper-slide>
+                <swiper-slide>
+                  <img src="../assets/images/project/psip/psip-1-2.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt=""> 
+                </swiper-slide>
+                <swiper-slide>
+                  <img src="../assets/images/project/psip/psip-3.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt=""> 
+                </swiper-slide>
+                <swiper-slide>
+                  <img src="../assets/images/project/psip/psip-4.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt=""> 
+                </swiper-slide>
+                <swiper-slide>
+                  <img src="../assets/images/project/psip/psip-5.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt=""> 
+                </swiper-slide>
+                <swiper-slide>
+                  <img src="../assets/images/project/psip/psip-6.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt=""> 
+                </swiper-slide>
+                <swiper-slide>
+                  <img src="../assets/images/project/psip/psip-7.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt=""> 
+                </swiper-slide>
+                <swiper-slide>
+                  <img src="../assets/images/project/psip/psip-8.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt=""> 
+                </swiper-slide>
+              </swiper>
               <!-- end carousel -->
             </div>
           </div>
@@ -156,65 +134,38 @@
           <div class="relative mx-auto border-gray-800 bg-gray-800 border-[8px] rounded-t-xl h-[172px] max-w-[301px] md:h-[294px] md:max-w-[512px]">
             <div class="rounded-lg overflow-hidden h-[156px] md:h-[278px] bg-white">
               <!-- begin carousel -->
-              <div class="carousel carousel-center">
-                <div id="bw-item1" class="carousel-item relative w-full">
+              <swiper
+                :pagination="{}"
+                :loop="true"
+                :navigation="true"
+                :modules="modules"
+                class="mySwiper py-0"
+              >
+                <swiper-slide>
                   <img src="../assets/images/project/bluewind/bw-1.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt=""> 
-                  <div class="absolute flex justify-between transform -translate-y-1/3 left-1 right-1 top-1/2">
-                    <a href="#bw-item7" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❮</a> 
-                    <a href="#bw-item2" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❯</a>
-                  </div>   
-                </div> 
-                <div id="bw-item2" class="carousel-item relative w-full">
-                  <img src="../assets/images/project/bluewind/bw-2.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt="">
-                  <div class="absolute flex justify-between transform -translate-y-1/3 left-1 right-1 top-1/2">
-                    <a href="#bw-item1" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❮</a> 
-                    <a href="#bw-item3" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❯</a>
-                  </div> 
-                </div> 
-                <div id="bw-item3" class="carousel-item relative w-full">
-                  <img src="../assets/images/project/bluewind/bw-3.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt="">
-                  <div class="absolute flex justify-between transform -translate-y-1/3 left-1 right-1 top-1/2">
-                    <a href="#bw-item2" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❮</a> 
-                    <a href="#bw-item4" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❯</a>
-                  </div> 
-                </div> 
-                <div id="bw-item4" class="carousel-item relative w-full">
-                  <img src="../assets/images/project/bluewind/bw-4.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt="">
-                  <div class="absolute flex justify-between transform -translate-y-1/3 left-1 right-1 top-1/2">
-                    <a href="#bw-item3" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❮</a> 
-                    <a href="#bw-item5" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❯</a>
-                  </div> 
-                </div> 
-                <div id="bw-item5" class="carousel-item relative w-full">
-                  <img src="../assets/images/project/bluewind/bw-5.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt="">
-                  <div class="absolute flex justify-between transform -translate-y-1/3 left-1 right-1 top-1/2">
-                    <a href="#bw-item4" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❮</a> 
-                    <a href="#bw-item6" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❯</a>
-                  </div> 
-                </div> 
-                <div id="bw-item6" class="carousel-item relative w-full">
-                  <img src="../assets/images/project/bluewind/bw-6.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt="">
-                  <div class="absolute flex justify-between transform -translate-y-1/3 left-1 right-1 top-1/2">
-                    <a href="#bw-item5" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❮</a> 
-                    <a href="#bw-item7" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❯</a>
-                  </div> 
-                </div> 
-                <div id="bw-item7" class="carousel-item relative w-full">
-                  <img src="../assets/images/project/bluewind/bw-7.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt="">
-                  <div class="absolute flex justify-between transform -translate-y-1/3 left-1 right-1 top-1/2">
-                    <a href="#bw-item6" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❮</a> 
-                    <a href="#bw-item8" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❯</a>
-                  </div> 
-                </div> 
-                <div id="bw-item8" class="carousel-item relative w-full">
-                  <img src="../assets/images/project/bluewind/bw-8.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt="">
-                  <div class="absolute flex justify-between transform -translate-y-1/3 left-1 right-1 top-1/2">
-                    <a href="#bw-item7" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❮</a> 
-                    <a href="#bw-item1" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❯</a>
-                  </div> 
-                </div> 
-
-              </div>
+                </swiper-slide>
+                <swiper-slide>
+                  <img src="../assets/images/project/bluewind/bw-2.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt=""> 
+                </swiper-slide>
+                <swiper-slide>
+                  <img src="../assets/images/project/bluewind/bw-3.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt=""> 
+                </swiper-slide>
+                <swiper-slide>
+                  <img src="../assets/images/project/bluewind/bw-4.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt=""> 
+                </swiper-slide>
+                <swiper-slide>
+                  <img src="../assets/images/project/bluewind/bw-5.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt=""> 
+                </swiper-slide>
+                <swiper-slide>
+                  <img src="../assets/images/project/bluewind/bw-6.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt=""> 
+                </swiper-slide>
+                <swiper-slide>
+                  <img src="../assets/images/project/bluewind/bw-7.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt=""> 
+                </swiper-slide>
+                <swiper-slide>
+                  <img src="../assets/images/project/bluewind/bw-8.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt=""> 
+                </swiper-slide>
+              </swiper>
               <!-- end carousel -->
             </div>
           </div>
@@ -231,7 +182,7 @@
             <h1 class="font-bold text-4xl">Bluewind Solution</h1>
 
             <h4 class="pt-5 font-normal text-base">
-              This main project assigned during internship. It is a website developed with PHP website format CRUD (Create, Read, Update, Delete).
+              This main project assigned during internship at Bluewind Solution Co., Ltd. for 4 months. It is a website developed with PHP website format CRUD (Create, Read, Update, Delete).
             </h4>
             <h4 class="pt-5 font-bold text-xl">Tools</h4>
             <div class="pt-3 font-bold text-5xl flex justify-center 2xl:justify-start gap-4"> 
@@ -255,58 +206,35 @@
           <div class="relative mx-auto border-gray-800 bg-gray-800 border-[8px] rounded-t-xl h-[172px] max-w-[301px] md:h-[294px] md:max-w-[512px]">
             <div class="rounded-lg overflow-hidden h-[156px] md:h-[278px] bg-white">
               <!-- begin carousel -->
-              <div class="carousel carousel-center">
-                <div id="br-item1" class="carousel-item relative w-full">
+              <swiper
+                :pagination="{}"
+                :loop="true"
+                :navigation="true"
+                :modules="modules"
+                class="mySwiper py-0"
+              >
+                <swiper-slide>
                   <img src="../assets/images/project/borrow/br-1.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt=""> 
-                  <div class="absolute flex justify-between transform -translate-y-1/3 left-1 right-1 top-1/2">
-                    <a href="#br-item7" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❮</a> 
-                    <a href="#br-item2" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❯</a>
-                  </div>   
-                </div> 
-                <div id="br-item2" class="carousel-item relative w-full">
-                  <img src="../assets/images/project/borrow/br-2.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt="">
-                  <div class="absolute flex justify-between transform -translate-y-1/3 left-1 right-1 top-1/2">
-                    <a href="#br-item1" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❮</a> 
-                    <a href="#br-item3" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❯</a>
-                  </div> 
-                </div> 
-                <div id="br-item3" class="carousel-item relative w-full">
-                  <img src="../assets/images/project/borrow/br-3.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt="">
-                  <div class="absolute flex justify-between transform -translate-y-1/3 left-1 right-1 top-1/2">
-                    <a href="#br-item2" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❮</a> 
-                    <a href="#br-item4" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❯</a>
-                  </div> 
-                </div> 
-                <div id="br-item4" class="carousel-item relative w-full">
-                  <img src="../assets/images/project/borrow/br-4.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt="">
-                  <div class="absolute flex justify-between transform -translate-y-1/3 left-1 right-1 top-1/2">
-                    <a href="#br-item3" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❮</a> 
-                    <a href="#br-item5" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❯</a>
-                  </div> 
-                </div> 
-                <div id="br-item5" class="carousel-item relative w-full">
-                  <img src="../assets/images/project/borrow/br-5.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt="">
-                  <div class="absolute flex justify-between transform -translate-y-1/3 left-1 right-1 top-1/2">
-                    <a href="#br-item4" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❮</a> 
-                    <a href="#br-item6" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❯</a>
-                  </div> 
-                </div> 
-                <div id="br-item6" class="carousel-item relative w-full">
-                  <img src="../assets/images/project/borrow/br-6.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt="">
-                  <div class="absolute flex justify-between transform -translate-y-1/3 left-1 right-1 top-1/2">
-                    <a href="#br-item5" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❮</a> 
-                    <a href="#br-item7" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❯</a>
-                  </div> 
-                </div> 
-                <div id="br-item7" class="carousel-item relative w-full">
-                  <img src="../assets/images/project/borrow/br-7.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt="">
-                  <div class="absolute flex justify-between transform -translate-y-1/3 left-1 right-1 top-1/2">
-                    <a href="#br-item6" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❮</a> 
-                    <a href="#br-item1" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❯</a>
-                  </div> 
-                </div> 
-
-              </div>
+                </swiper-slide>
+                <swiper-slide>
+                  <img src="../assets/images/project/borrow/br-2.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt=""> 
+                </swiper-slide>
+                <swiper-slide>
+                  <img src="../assets/images/project/borrow/br-3.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt=""> 
+                </swiper-slide>
+                <swiper-slide>
+                  <img src="../assets/images/project/borrow/br-4.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt=""> 
+                </swiper-slide>
+                <swiper-slide>
+                  <img src="../assets/images/project/borrow/br-5.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt=""> 
+                </swiper-slide>
+                <swiper-slide>
+                  <img src="../assets/images/project/borrow/br-6.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt=""> 
+                </swiper-slide>
+                <swiper-slide>
+                  <img src="../assets/images/project/borrow/br-7.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt=""> 
+                </swiper-slide>
+              </swiper>
               <!-- end carousel -->
             </div>
           </div>
@@ -352,65 +280,38 @@
           <div class="relative mx-auto border-gray-800 bg-gray-800 border-[8px] rounded-t-xl h-[172px] max-w-[301px] md:h-[294px] md:max-w-[512px]">
             <div class="rounded-lg overflow-hidden h-[156px] md:h-[278px] bg-white">
               <!-- begin carousel -->
-              <div class="carousel carousel-center">
-                <div id="bm-item1" class="carousel-item relative w-full">
+              <swiper
+                :pagination="{}"
+                :loop="true"
+                :navigation="true"
+                :modules="modules"
+                class="mySwiper py-0"
+              >
+                <swiper-slide>
                   <img src="../assets/images/project/banmai/bm-1.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt=""> 
-                  <div class="absolute flex justify-between transform -translate-y-1/3 left-1 right-1 top-1/2">
-                    <a href="#bm-item7" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❮</a> 
-                    <a href="#bm-item2" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❯</a>
-                  </div>   
-                </div> 
-                <div id="bm-item2" class="carousel-item relative w-full">
-                  <img src="../assets/images/project/banmai/bm-2.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt="">
-                  <div class="absolute flex justify-between transform -translate-y-1/3 left-1 right-1 top-1/2">
-                    <a href="#bm-item1" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❮</a> 
-                    <a href="#bm-item3" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❯</a>
-                  </div> 
-                </div> 
-                <div id="bm-item3" class="carousel-item relative w-full">
-                  <img src="../assets/images/project/banmai/bm-3.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt="">
-                  <div class="absolute flex justify-between transform -translate-y-1/3 left-1 right-1 top-1/2">
-                    <a href="#bm-item2" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❮</a> 
-                    <a href="#bm-item4" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❯</a>
-                  </div> 
-                </div> 
-                <div id="bm-item4" class="carousel-item relative w-full">
-                  <img src="../assets/images/project/banmai/bm-4.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt="">
-                  <div class="absolute flex justify-between transform -translate-y-1/3 left-1 right-1 top-1/2">
-                    <a href="#bm-item3" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❮</a> 
-                    <a href="#bm-item5" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❯</a>
-                  </div> 
-                </div> 
-                <div id="bm-item5" class="carousel-item relative w-full">
-                  <img src="../assets/images/project/banmai/bm-5.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt="">
-                  <div class="absolute flex justify-between transform -translate-y-1/3 left-1 right-1 top-1/2">
-                    <a href="#bm-item4" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❮</a> 
-                    <a href="#bm-item6" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❯</a>
-                  </div> 
-                </div> 
-                <div id="bm-item6" class="carousel-item relative w-full">
-                  <img src="../assets/images/project/banmai/bm-6.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt="">
-                  <div class="absolute flex justify-between transform -translate-y-1/3 left-1 right-1 top-1/2">
-                    <a href="#bm-item5" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❮</a> 
-                    <a href="#bm-item7" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❯</a>
-                  </div> 
-                </div> 
-                <div id="bm-item7" class="carousel-item relative w-full">
-                  <img src="../assets/images/project/banmai/bm-7.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt="">
-                  <div class="absolute flex justify-between transform -translate-y-1/3 left-1 right-1 top-1/2">
-                    <a href="#bm-item6" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❮</a> 
-                    <a href="#bm-item8" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❯</a>
-                  </div> 
-                </div> 
-                <div id="bm-item8" class="carousel-item relative w-full">
-                  <img src="../assets/images/project/banmai/bm-8.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt="">
-                  <div class="absolute flex justify-between transform -translate-y-1/3 left-1 right-1 top-1/2">
-                    <a href="#bm-item7" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❮</a> 
-                    <a href="#bm-item1" class="btn btn-sm btn-circle opacity-50 hover:opacity-70 border-0">❯</a>
-                  </div> 
-                </div> 
-
-              </div>
+                </swiper-slide>
+                <swiper-slide>
+                  <img src="../assets/images/project/banmai/bm-2.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt=""> 
+                </swiper-slide>
+                <swiper-slide>
+                  <img src="../assets/images/project/banmai/bm-3.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt=""> 
+                </swiper-slide>
+                <swiper-slide>
+                  <img src="../assets/images/project/banmai/bm-4.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt=""> 
+                </swiper-slide>
+                <swiper-slide>
+                  <img src="../assets/images/project/banmai/bm-5.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt=""> 
+                </swiper-slide>
+                <swiper-slide>
+                  <img src="../assets/images/project/banmai/bm-6.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt=""> 
+                </swiper-slide>
+                <swiper-slide>
+                  <img src="../assets/images/project/banmai/bm-7.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt=""> 
+                </swiper-slide>
+                <swiper-slide>
+                  <img src="../assets/images/project/banmai/bm-8.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt=""> 
+                </swiper-slide>
+              </swiper>
               <!-- end carousel -->
             </div>
           </div>
@@ -454,6 +355,17 @@
 </template>
 
 <script>
+  import { Swiper, SwiperSlide } from 'swiper/vue';
+
+  // Import Swiper styles
+  import 'swiper/css';
+
+  import 'swiper/css/pagination';
+  import 'swiper/css/navigation';
+
+  // import required modules
+  import { Pagination, Navigation } from 'swiper/modules';
+
   import { VsFileTypeVite } from "@kalimahapps/vue-icons";
   import { DeVuejsOriginal } from "@kalimahapps/vue-icons";
   import { DeTailwindcssPlain } from "@kalimahapps/vue-icons";
@@ -468,6 +380,8 @@
 
   export default {
     components: {
+      Swiper,
+      SwiperSlide,
       VsFileTypeVite,
       DeVuejsOriginal,
       DeTailwindcssPlain,
@@ -477,7 +391,12 @@
       DeBootstrapPlain,
       DeNodejsOriginal,
       DeMysqlOriginalWordmark
-    }
+    },
+    setup() {
+      return {
+        modules: [Pagination, Navigation],
+      };
+    },
   }
 </script>
 
