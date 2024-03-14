@@ -2,6 +2,13 @@
   <div>
 
     <div class="py-16 grid gap-y-20">
+      <div class="text-center">
+        <h4 class="font-normal text-base uppercase">Example</h4>
+        <h1 class="font-bold text-4xl">My Project</h1>
+        <h4 class="pt-5 font-normal text-base">
+          Here are some examples of projects I've been working on over time. Which shows examples of tools used in Website Development.
+        </h4>
+      </div>
       
       <div class="flex flex-col w-full xl:flex-row gap-4"> 
         <div class="flex-grow place-items-center w-full xl:w-1/2">
