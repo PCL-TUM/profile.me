@@ -6,7 +6,7 @@
         <h4 class="font-normal text-base uppercase">Example</h4>
         <h1 class="font-bold text-4xl">My Project</h1>
         <h4 class="pt-5 font-normal text-base">
-          Here are some examples of projects I've been working on over time. Which shows examples of tools used in Website Development.
+          Here are some examples of projects I've been working on over time. Which shows examples of tools used in website development.
         </h4>
       </div>
       
@@ -42,7 +42,7 @@
 
         <div class="flex-grow place-items-center flex justify-center w-full xl:w-1/2">
           <div class="text-center 2xl:text-left">
-            <h4 class="font-normal text-base">This project</h4>
+            <h4 class="font-normal text-base">This Project</h4>
             <h1 class="font-bold text-4xl">Folio Profile</h1>
 
             <h4 class="pt-5 font-normal text-base">
@@ -113,7 +113,7 @@
 
         <div class="flex-grow place-items-center flex justify-center w-full xl:w-1/2">
           <div class="text-center 2xl:text-left">
-            <h4 class="font-normal text-base">This project</h4>
+            <h4 class="font-normal text-base">This Project</h4>
             <h1 class="font-bold text-4xl">PSIP : Parcel Sortation Via Image Processing</h1>
 
             <h4 class="pt-5 font-normal text-base">
@@ -185,7 +185,7 @@
 
         <div class="flex-grow place-items-center flex justify-center w-full xl:w-1/2">
           <div class="text-center 2xl:text-left">
-            <h4 class="font-normal text-base">This project</h4>
+            <h4 class="font-normal text-base">This Project</h4>
             <h1 class="font-bold text-4xl">Bluewind Solution</h1>
 
             <h4 class="pt-5 font-normal text-base">
@@ -254,7 +254,7 @@
 
         <div class="flex-grow place-items-center flex justify-center w-full xl:w-1/2">
           <div class="text-center 2xl:text-left">
-            <h4 class="font-normal text-base">This project</h4>
+            <h4 class="font-normal text-base">This Project</h4>
             <h1 class="font-bold text-4xl">Borrow Equpment</h1>
 
             <h4 class="pt-5 font-normal text-base">
@@ -331,7 +331,7 @@
 
         <div class="flex-grow place-items-center flex justify-center w-full xl:w-1/2">
           <div class="text-center 2xl:text-left">
-            <h4 class="font-normal text-base">This project</h4>
+            <h4 class="font-normal text-base">This Project</h4>
             <h1 class="font-bold text-4xl">Banmai Service</h1>
 
             <h4 class="pt-5 font-normal text-base">
