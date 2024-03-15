@@ -3,14 +3,18 @@
 
     <div class="py-16 grid gap-y-20">
       <div class="text-center">
-        <h4 class="font-normal text-orange-600 text-base uppercase">Example</h4>
-        <h1 class="font-bold text-blue-950 text-4xl">My Project</h1>
-        <h4 class="pt-5 font-normal text-base">
-          Here are some examples of projects I've been working on over time. Which shows examples of tools used in website development.
-        </h4>
+        <aos-vue animation="zoom-in-up" :duration="650" :once="true">
+          <h4 class="font-normal text-orange-600 text-base uppercase">Example</h4>
+          <h1 class="font-bold text-blue-950 text-4xl">My Project</h1>
+          <h4 class="pt-5 font-normal text-base">
+            Here are some examples of projects I've been working on over time. Which shows examples of tools used in website development.
+          </h4>
+        </aos-vue>
       </div>
+
+      <aos-vue animation="fade-up-right" :duration="650" :once="true">
       
-      <div class="flex flex-col w-full xl:flex-row gap-4"> 
+      <div id="p_folio" class="flex flex-col w-full xl:flex-row gap-4"> 
         <div class="flex-grow place-items-center w-full xl:w-1/2">
           <!-- begin Laptop mockup  -->
           <div class="relative mx-auto border-gray-800 bg-gray-800 border-[8px] rounded-t-xl h-[172px] max-w-[301px] md:h-[294px] md:max-w-[512px]">
@@ -60,10 +64,14 @@
           </div>
         </div>
       </div>
+
+      </aos-vue>
       <!-- end project folio  -->
 
       <!-- begin project folio  -->
-      <div class="flex flex-col w-full xl:flex-row-reverse gap-4"> 
+      <aos-vue animation="fade-up-left" :duration="650" :once="true">
+
+      <div id="p_psip" class="flex flex-col w-full xl:flex-row-reverse gap-4"> 
         <div class="flex-grow place-items-cente w-full xl:w-1/2">
           <!-- begin Laptop mockup  -->
           <div class="relative mx-auto border-gray-800 bg-gray-800 border-[8px] rounded-t-xl h-[172px] max-w-[301px] md:h-[294px] md:max-w-[512px]">
@@ -132,10 +140,13 @@
           </div>
         </div>
       </div>
+
+      </aos-vue>
       <!-- end project folio  -->
 
       <!-- begin project folio  -->
-      <div class="flex flex-col w-full xl:flex-row gap-4"> 
+      <aos-vue animation="fade-up-right" :duration="650" :once="true">
+      <div id="p_bluewind" class="flex flex-col w-full xl:flex-row gap-4"> 
         <div class="flex-grow place-items-cente w-full xl:w-1/2">
           <!-- begin Laptop mockup  -->
           <div class="relative mx-auto border-gray-800 bg-gray-800 border-[8px] rounded-t-xl h-[172px] max-w-[301px] md:h-[294px] md:max-w-[512px]">
@@ -204,10 +215,12 @@
           </div>
         </div>
       </div>
+      </aos-vue>
       <!-- end project folio  -->
 
       <!-- begin project folio  -->
-      <div class="flex flex-col w-full xl:flex-row-reverse gap-4"> 
+      <aos-vue animation="fade-up-left" :duration="650" :once="true">
+      <div id="p_borrow" class="flex flex-col w-full xl:flex-row-reverse gap-4"> 
         <div class="flex-grow place-items-cente w-full xl:w-1/2">
           <!-- begin Laptop mockup  -->
           <div class="relative mx-auto border-gray-800 bg-gray-800 border-[8px] rounded-t-xl h-[172px] max-w-[301px] md:h-[294px] md:max-w-[512px]">
@@ -279,10 +292,12 @@
           </div>
         </div>
       </div>
+      </aos-vue>
       <!-- end project folio  -->
 
       <!-- begin project folio  -->
-      <div class="flex flex-col w-full xl:flex-row gap-4"> 
+      <aos-vue animation="fade-up-right" :duration="650" :once="true">
+      <div id="p_banmai" class="flex flex-col w-full xl:flex-row gap-4"> 
         <div class="flex-grow place-items-cente w-full xl:w-1/2">
           <!-- begin Laptop mockup  -->
           <div class="relative mx-auto border-gray-800 bg-gray-800 border-[8px] rounded-t-xl h-[172px] max-w-[301px] md:h-[294px] md:max-w-[512px]">
@@ -353,6 +368,7 @@
           </div>
         </div>
       </div>
+      </aos-vue>
       <!-- end project folio  -->
 
     </div>

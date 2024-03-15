@@ -19,7 +19,7 @@
         </div>
       </div>
     </div>
-    <svg class="bg-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <svg id="wave" class="bg-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
       <path fill="#172554" fill-opacity="1" d="M0,128L60,112C120,96,240,64,360,64C480,64,600,96,720,128C840,160,960,192,1080,192C1200,192,1320,160,1380,144L1440,128L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path>
     </svg>
 
@@ -30,7 +30,7 @@
         </div>
       </div>
     </div>
-    <svg class="bg-slate-100" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <svg id="wave" class="bg-slate-100" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
       <path fill="#fff" fill-opacity="1" d="M0,192L80,202.7C160,213,320,235,480,224C640,213,800,171,960,170.7C1120,171,1280,213,1360,234.7L1440,256L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path>
     </svg>
 
@@ -41,7 +41,7 @@
         </div>
       </div>
     </div>
-    <svg class="bg-slate-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <svg id="wave" class="bg-slate-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
       <path fill="#f2f6fa" fill-opacity="1" d="M0,192L80,208C160,224,320,256,480,234.7C640,213,800,139,960,106.7C1120,75,1280,85,1360,90.7L1440,96L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path>
     </svg>
 
@@ -52,7 +52,7 @@
         </div>
       </div>
     </div>
-    <svg class="bg-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <svg id="wave" class="bg-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
       <path fill="#f7fafc" fill-opacity="1" d="M0,160L80,138.7C160,117,320,75,480,101.3C640,128,800,224,960,240C1120,256,1280,192,1360,160L1440,128L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path>
     </svg>
 
@@ -67,3 +67,10 @@
     <Footer /> <!-- component Footer -->
   </div>
 </template>
+
+<script>
+  import AosVue from "aos-vue";
+  export default {
+    components: { AosVue },
+  };
+</script>

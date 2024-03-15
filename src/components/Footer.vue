@@ -3,11 +3,11 @@
 
       <footer class="footer footer-center p-10 bg-blue-950 text-white rounded-t-xl sm:rounded-none">
         <nav class="grid grid-flow-col gap-4">
-          <a class="link link-hover">Home</a>
-          <a class="link link-hover">About</a>
-          <a class="link link-hover">Skill</a>
-          <a class="link link-hover">Project</a>
-          <a class="link link-hover">Contact</a>
+          <a href="#home" class="link link-hover">Home</a>
+          <a href="#about" class="link link-hover">About</a>
+          <a href="#skill" class="link link-hover">Skill</a>
+          <a href="#p_folio" class="link link-hover">Project</a>
+          <a href="#contact" class="link link-hover">Contact</a>
         </nav> 
         <nav>
           <div class="grid grid-flow-col gap-4">
@@ -17,7 +17,6 @@
           </div>
         </nav> 
       </footer>
-        
     </div>
 </template>
 

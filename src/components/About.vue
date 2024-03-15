@@ -2,13 +2,20 @@
 	<div>
 		<div class="py-16 xl:py-0 grid gap-y-20">
       
-			<div class="flex flex-col w-full xl:flex-row gap-4"> 
+			<div id="about" class="flex flex-col w-full xl:flex-row gap-4"> 
 				<div class="flex-grow justify-center w-full xl:w-1/2 hidden xl:flex">
-					<img class="h-auto max-w-full p-20" src="../assets/images/aboutme.png" alt="image description">
+
+					<aos-vue animation="zoom-out-right" :duration="650" :once="true">
+						<img class="h-auto max-w-full p-20" src="../assets/images/aboutme.png" alt="image description">
+					</aos-vue>
+
 				</div>
 
 				<div class="flex-grow flex justify-center w-full xl:w-1/2 xl:items-center xl:justify-start">
-					<div class="text-left 2xl:text-left">
+					
+					<aos-vue animation="zoom-out-left" :duration="650" :once="true">
+					
+					<div class="text-left 2xl:text-left">						
 						<div class="text-center xl:text-start">
 							<h4 class="font-normal text-orange-600 text-base uppercase">My intro</h4>
 							<h1 class="font-bold text-blue-950 text-4xl">About Me</h1>
@@ -54,6 +61,8 @@
 						</div>
 						
 					</div> 
+
+					</aos-vue>
 
 				</div>
 			</div>

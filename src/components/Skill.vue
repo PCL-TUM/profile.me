@@ -1,12 +1,17 @@
 <template lang="">
     <div>
-        <div class="py-16 text-center">
+        <div id="skill" class="py-16 text-center">
+            <aos-vue animation="slide-up" :duration="650" :once="true">
 
-            <h4 class="font-normal text-base text-orange-600 uppercase">Abilities</h4>
-            <h1 class="font-bold text-blue-950 text-4xl">My Skills</h1>
-            <h4 class="pt-5 font-normal text-base">
-                My computer language skills and tools or framework knowledge that can be applied to website development
-            </h4>
+                <h4 class="font-normal text-base text-orange-600 uppercase">Abilities</h4>
+                <h1 class="font-bold text-blue-950 text-4xl">My Skills</h1>
+                <h4 class="pt-5 font-normal text-base">
+                    My computer language skills and tools or framework knowledge that can be applied to website development
+                </h4>
+
+            </aos-vue>
+
+            <aos-vue animation="zoom-in" :duration="650" :once="true">
 
             <swiper :effect="'coverflow'" :grabCursor="true" :centeredSlides="true" :loop="true" :spaceBetween="12"
                     :slidesPerView="'auto'" :coverflowEffect="{
@@ -578,6 +583,9 @@
                 </swiper-slide>
 
             </swiper>
+
+            </aos-vue>
+
         </div>
     </div>
 
