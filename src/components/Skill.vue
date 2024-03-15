@@ -1,9 +1,9 @@
 <template lang="">
     <div>
-        <div class="text-center">
+        <div class="py-16 text-center">
 
-            <h4 class="font-normal text-base uppercase">Abilities</h4>
-            <h1 class="font-bold text-4xl">My Skills</h1>
+            <h4 class="font-normal text-base text-orange-600 uppercase">Abilities</h4>
+            <h1 class="font-bold text-blue-950 text-4xl">My Skills</h1>
             <h4 class="pt-5 font-normal text-base">
                 My computer language skills and tools or framework knowledge that can be applied to website development
             </h4>

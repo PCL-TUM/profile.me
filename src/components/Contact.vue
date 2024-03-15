@@ -5,8 +5,8 @@
             
             <div class="text-center xl:px-10">
 
-                <h4 class="font-normal text-base uppercase">Want to</h4>
-                <h1 class="font-bold text-4xl">Contact me?</h1>
+                <h4 class="font-normal text-base text-orange-600 uppercase">Want to</h4>
+                <h1 class="font-bold text-blue-950 text-4xl">Contact me?</h1>
                 <h4 class="pt-5 font-normal text-base">
                     This is the details or information. that you can contact me
                 </h4>
@@ -28,7 +28,7 @@
                                 <div>
                                     <textarea type="text" class="textarea textarea-bordered textarea-md text-base w-full h-52" ref="message" name="message" placeholder="Message"></textarea>
                                 </div>
-                                <button type="submit" value="Send" class="btn rounded-full w-52 mx-auto px-6">
+                                <button type="submit" value="Send" class="btn rounded-full w-52 mx-auto px-6 text-white bg-orange-600 border-orange-600 hover:bg-orange-700 hover:border-orange-700 focus:bg-orange-500 focus:border-orange-500">
                                     Send Message
                                     <span class="text-lg"><FeSend /></span>
                                 </button>
@@ -40,32 +40,32 @@
                 <div class="flex-grow flex flex-col  content-start w-full gap-6 lg:w-1/2 lg:flex">
                     <div class="flex flex-col">
                         <div class="flex flex-row gap-5">
-                            <div class="p-3 bg-slate-100 rounded-full"><FeMapPin /></div>
-                            <h4 class="font-semibold text-base pt-2">Address</h4>
+                            <div class="p-3 bg-slate-100 text-blue-950 rounded-full"><FeMapPin /></div>
+                            <h4 class="font-semibold text-orange-600 text-base pt-2">Address</h4>
                         </div>
                         <h4 class="ps-16 font-normal text-base">69 Moo.1, Khun Thale, Mueang Surat Thani, Surat Thani, 84100</h4>
                     </div>
 
                     <div class="flex flex-col">
                         <div class="flex flex-row gap-5">
-                            <div class="p-3 bg-slate-100 rounded-full"><BsTelephone /></div>
-                            <h4 class="font-semibold text-base pt-2">Phone</h4>
+                            <div class="p-3 bg-slate-100 text-blue-950 rounded-full"><BsTelephone /></div>
+                            <h4 class="font-semibold text-orange-600 text-base pt-2">Phone</h4>
                         </div>
                         <h4 class="ps-16 font-normal text-base">097-234-0942</h4>
                     </div>
 
                     <div class="flex flex-col">
                         <div class="flex flex-row gap-5">
-                            <div class="p-3 bg-slate-100 rounded-full"><BxEnvelope /></div>
-                            <h4 class="font-semibold text-base pt-2">Email</h4>
+                            <div class="p-3 bg-slate-100 text-blue-950 rounded-full"><BxEnvelope /></div>
+                            <h4 class="font-semibold text-orange-600 text-base pt-2">Email</h4>
                         </div>
                         <a href="mailto:phichet.pcl@gmail.com" class="ps-16 font-normal text-base">phichet.pcl@gmail.com</a>
                     </div>
 
                     <div class="flex flex-col">
                         <div class="flex flex-row gap-5">
-                            <div class="p-3 bg-slate-100 rounded-full"><GvWorld /></div>
-                            <h4 class="font-semibold text-base pt-2">Website</h4>
+                            <div class="p-3 bg-slate-100 text-blue-950 rounded-full"><GvWorld /></div>
+                            <h4 class="font-semibold text-orange-600 text-base pt-2">Website</h4>
                         </div>
                         <a href="https://pcl-tum.github.io/profile-reactjs" class="ps-16 font-normal text-base">https://pcl-tum.github.io/profile-reactjs</a>
                     </div>

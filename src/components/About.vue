@@ -1,17 +1,17 @@
 <template lang="">
 	<div>
-		<div class="py-16 grid gap-y-20">
+		<div class="py-16 xl:py-0 grid gap-y-20">
       
 			<div class="flex flex-col w-full xl:flex-row gap-4"> 
 				<div class="flex-grow justify-center w-full xl:w-1/2 hidden xl:flex">
-					<img class="h-auto max-w-full p-20" src="https://flowbite.com/docs/images/examples/image-1@2x.jpg" alt="image description">
+					<img class="h-auto max-w-full p-20" src="../assets/images/aboutme.png" alt="image description">
 				</div>
 
 				<div class="flex-grow flex justify-center w-full xl:w-1/2 xl:items-center xl:justify-start">
 					<div class="text-left 2xl:text-left">
 						<div class="text-center xl:text-start">
-							<h4 class="font-normal text-base uppercase">My intro</h4>
-							<h1 class="font-bold text-4xl">About Me</h1>
+							<h4 class="font-normal text-orange-600 text-base uppercase">My intro</h4>
+							<h1 class="font-bold text-blue-950 text-4xl">About Me</h1>
 							<h4 class="pt-5 font-normal text-base text-balance">
 								Hi, I'm Tum. I love design websites on the Frontend, but I can work on the Backend as well. 
 								and I love learning about Web Development with New framework or library. 
@@ -21,33 +21,33 @@
 
 						<div class="pt-5 flex flex-col gap-y-1 ps-2 sm:ps-32 sm:pe-20 md:ps-48 md:pe-20 lg:ps-80 lg:pe-44 xl:px-0">
 							<div class="flex flex-row text-md">
-								<span class="text-xl p-0.5 px-2"><PhBoldUser /></span>
-								<span class="font-semibold me-3 sm:me-0 w-2/5 sm:w-2/4 xl:w-1/4">Name </span>
+								<span class="text-xl text-orange-600 p-0.5 px-2"><PhBoldUser /></span>
+								<span class="font-bold me-3 text-blue-950 sm:me-0 w-2/5 sm:w-2/4 xl:w-1/4">Name </span>
 								<span class="font-normal w-4/5">Phichet Liwvaha</span>
 							</div>
 							<div class="flex flex-row text-md">
-								<span class="text-xl p-0.5 px-2"><PhBoldGraduationCap /></span>
-								<span class="font-semibold me-3 sm:me-0 w-2/5 sm:w-2/4 xl:w-1/4">Education </span>
+								<span class="text-xl text-orange-600 p-0.5 px-2"><PhBoldGraduationCap /></span>
+								<span class="font-bold me-3 text-blue-950 sm:me-0 w-2/5 sm:w-2/4 xl:w-1/4">Education </span>
 								<span class="font-normal w-4/5">Computer Engineering</span>
 							</div>
 							<div class="flex flex-row text-md">
-								<span class="text-xl p-0.5 px-2"><PhBoldCalendar /></span>
-								<span class="font-semibold me-3 sm:me-0 w-2/5 sm:w-2/4 xl:w-1/4">Date of birth </span>
+								<span class="text-xl text-orange-600 p-0.5 px-2"><PhBoldCalendar /></span>
+								<span class="font-bold me-3 text-blue-950 sm:me-0 w-2/5 sm:w-2/4 xl:w-1/4">Date of birth </span>
 								<span class="font-normal w-4/5">September 02, 1999</span>
 							</div>
 							<div class="flex flex-row text-md">
-								<span class="text-xl p-0.5 px-2"><PhBoldEnvelopeSimple /></span>
-								<span class="font-semibold me-3 sm:me-0 w-2/5 sm:w-2/4 xl:w-1/4">Email </span>
+								<span class="text-xl text-orange-600 p-0.5 px-2"><PhBoldEnvelopeSimple /></span>
+								<span class="font-bold me-3 text-blue-950 sm:me-0 w-2/5 sm:w-2/4 xl:w-1/4">Email </span>
 								<span class="font-normal w-4/5">phichet.pcl@gmail.com</span>
 							</div>
 							<div class="flex flex-row text-md">
-								<span class="text-xl p-0.5 px-2"><PhBoldPhone /></span>
-								<span class="font-semibold me-3 sm:me-0 w-2/5 sm:w-2/4 xl:w-1/4">Phone </span>
+								<span class="text-xl text-orange-600 p-0.5 px-2"><PhBoldPhone /></span>
+								<span class="font-bold me-3 text-blue-950 sm:me-0 w-2/5 sm:w-2/4 xl:w-1/4">Phone </span>
 								<span class="font-normal w-4/5">097-234-0942</span>
 							</div>
 							<div class="flex flex-row text-md">
-								<span class="text-xl p-0.5 px-2"><PhBoldMapPin /></span>
-								<span class="font-semibold me-3 sm:me-0 w-2/5 sm:w-2/4 xl:w-1/4">Address </span>
+								<span class="text-xl text-orange-600 p-0.5 px-2"><PhBoldMapPin /></span>
+								<span class="font-bold me-3 text-blue-950 sm:me-0 w-2/5 sm:w-2/4 xl:w-1/4">Address </span>
 								<span class="font-normal w-4/5 lg:hidden">69 Moo.1, Khun Thale,<br /> Mueang Surat Thani,<br /> Surat Thani, 84100</span>
 								<span class="font-normal w-4/5 hidden lg:flex">69 Moo.1, Khun Thale, Mueang Surat Thani, Surat Thani, 84100</span>
 							</div>

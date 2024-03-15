@@ -3,8 +3,8 @@
 
     <div class="py-16 grid gap-y-20">
       <div class="text-center">
-        <h4 class="font-normal text-base uppercase">Example</h4>
-        <h1 class="font-bold text-4xl">My Project</h1>
+        <h4 class="font-normal text-orange-600 text-base uppercase">Example</h4>
+        <h1 class="font-bold text-blue-950 text-4xl">My Project</h1>
         <h4 class="pt-5 font-normal text-base">
           Here are some examples of projects I've been working on over time. Which shows examples of tools used in website development.
         </h4>
@@ -42,13 +42,13 @@
 
         <div class="flex-grow place-items-center flex justify-center w-full xl:w-1/2">
           <div class="text-center 2xl:text-left">
-            <h4 class="font-normal text-base">This Project</h4>
-            <h1 class="font-bold text-4xl">Folio Profile</h1>
+            <h4 class="font-normal text-orange-600 text-base">This Project</h4>
+            <h1 class="font-bold text-blue-950 text-4xl">Folio Profile</h1>
 
             <h4 class="pt-5 font-normal text-base">
               This project details my personal information, abilities, education, jobs and contact me, And this project am deploy on github page is demo wabsite for profile me.
             </h4>
-            <h4 class="pt-5 font-bold text-xl">Tools</h4>
+            <h4 class="pt-5 font-bold text-blue-950 text-xl">Tools</h4>
             <div class="pt-3 font-bold text-5xl flex justify-center 2xl:justify-start gap-4"> 
               <VsFileTypeVite />
               <DeVuejsOriginal />
@@ -113,13 +113,13 @@
 
         <div class="flex-grow place-items-center flex justify-center w-full xl:w-1/2">
           <div class="text-center 2xl:text-left">
-            <h4 class="font-normal text-base">This Project</h4>
-            <h1 class="font-bold text-4xl">PSIP : Parcel Sortation Via Image Processing</h1>
+            <h4 class="font-normal text-orange-600 text-base">This Project</h4>
+            <h1 class="font-bold text-blue-950 text-4xl">PSIP : Parcel Sortation Via Image Processing</h1>
 
             <h4 class="pt-5 font-normal text-base">
               This a graduation project. It is a website used to display information on parcels that have been sorted by an image processing machine.
             </h4>
-            <h4 class="pt-5 font-bold text-xl">Tools</h4>
+            <h4 class="pt-5 font-bold text-blue-950 text-xl">Tools</h4>
             <div class="pt-3 font-bold text-5xl flex justify-center 2xl:justify-start gap-4"> 
               <DePhpPlain />
               <DeJqueryOriginalWordmark />
@@ -185,13 +185,13 @@
 
         <div class="flex-grow place-items-center flex justify-center w-full xl:w-1/2">
           <div class="text-center 2xl:text-left">
-            <h4 class="font-normal text-base">This Project</h4>
-            <h1 class="font-bold text-4xl">Bluewind Solution</h1>
+            <h4 class="font-normal text-orange-600 text-base">This Project</h4>
+            <h1 class="font-bold text-blue-950 text-4xl">Bluewind Solution</h1>
 
             <h4 class="pt-5 font-normal text-base">
               This main project assigned during internship at Bluewind Solution Co., Ltd. for 4 months. It is a website developed with PHP website format CRUD (Create, Read, Update, Delete).
             </h4>
-            <h4 class="pt-5 font-bold text-xl">Tools</h4>
+            <h4 class="pt-5 font-bold text-blue-950 text-xl">Tools</h4>
             <div class="pt-3 font-bold text-5xl flex justify-center 2xl:justify-start gap-4"> 
               <DePhpPlain />
               <DeJqueryOriginalWordmark />
@@ -254,17 +254,18 @@
 
         <div class="flex-grow place-items-center flex justify-center w-full xl:w-1/2">
           <div class="text-center 2xl:text-left">
-            <h4 class="font-normal text-base">This Project</h4>
-            <h1 class="font-bold text-4xl">Borrow Equpment</h1>
+            <h4 class="font-normal text-orange-600 text-base">This Project</h4>
+            <h1 class="font-bold text-blue-950 text-4xl">Borrow Equpment</h1>
 
             <h4 class="pt-5 font-normal text-base">
               This project freelance job. It is a website developed with EJS website format CRUD (Create, Read, Update, Delete). And notify borrow equipment vie Socket.io
             </h4>
-            <h4 class="pt-5 font-bold text-xl">Tools</h4>
+            <h4 class="pt-5 font-bold text-blue-950 text-xl">Tools</h4>
             <div class="flex flex-col 2xl:flex-row 2xl:gap-4">
               <div class="flex flex-row justify-center 2xl:justify-start pt-3 font-bold text-5xl gap-4"> 
-                <div class="">
-                  <img src="https://miro.medium.com/v2/resize:fit:1400/1*DAIoObWqwP2P-EMJjBEdqQ.png" class="max-h-12 max-w-auto" alt="">
+                <div class="flex flex-row pt-2">
+                  <img src="https://www.vectorlogo.zone/logos/expressjs/expressjs-ar21.svg" class="max-h-12 max-w-auto" alt="">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1024px-Unofficial_JavaScript_logo_2.svg.png" class="max-h-8 max-w-auto" alt="">
                 </div>
                 <DeJqueryOriginalWordmark />
                 <DeMysqlOriginalWordmark />
@@ -272,7 +273,7 @@
               </div>
               <div class="flex flex-row justify-center 2xl:pt-2 gap-4">
                 <img src="https://i0.wp.com/blog.knoldus.com/wp-content/uploads/2021/09/nodejs.png?fit=512%2C256&ssl=1" class="max-h-12 max-w-auto" alt="">
-                <img src="https://miro.medium.com/v2/resize:fit:811/1*tOitxCwTNcS3ESstLylmtg.png" class="max-h-12 max-w-auto" alt="">
+                <img src="https://www.vectorlogo.zone/logos/socketio/socketio-ar21.svg" class="max-h-14 max-w-auto" alt="">
               </div>
             </div>
           </div>
@@ -331,13 +332,13 @@
 
         <div class="flex-grow place-items-center flex justify-center w-full xl:w-1/2">
           <div class="text-center 2xl:text-left">
-            <h4 class="font-normal text-base">This Project</h4>
-            <h1 class="font-bold text-4xl">Banmai Service</h1>
+            <h4 class="font-normal text-orange-600 text-base">This Project</h4>
+            <h1 class="font-bold text-blue-950 text-4xl">Banmai Service</h1>
 
             <h4 class="pt-5 font-normal text-base">
               This project service while working at Banmaipathana Subdistrict Health Promoting Hospital. 
               It is a website has a system for searching patient names in the database to print stickers
-              , Calendar list of service recipients, Template for graphic onepage.
+              , Calendar list of serv text-blue-950ice recipients, Template for graphic onepage.
             </h4>
             <h4 class="pt-5 font-bold text-xl">Tools</h4>
             <div class="pt-3 font-bold text-5xl flex justify-center 2xl:justify-start gap-4"> 
