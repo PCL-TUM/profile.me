@@ -31,7 +31,7 @@
           </div>
         </div>
         <div class="navbar-center">
-          <a class="btn btn-ghost font-semibold text-xl hover:bg-white">
+          <a href="#home" class="btn btn-ghost font-semibold text-xl hover:bg-white">
             <img src="https://cdn-icons-png.flaticon.com/512/7316/7316704.png" width="25" height="15" alt="" class="pb-0.5">
             <span class="pt-0.5">PCL.Dev</span>
           </a>
@@ -48,7 +48,7 @@
       <div class="container w-full mx-auto px-5">
         <div class="navbar border-b-1">
           <div class="flex-1">
-            <a class="btn btn-ghost font-semibold text-xl hover:bg-white">
+            <a href="#home" class="btn btn-ghost font-semibold text-xl hover:bg-white">
               <img src="https://cdn-icons-png.flaticon.com/512/7316/7316704.png" width="25" height="15" alt="" class="pb-0.5">
               <span class="pt-0.5">PCL.Dev</span>
             </a>
