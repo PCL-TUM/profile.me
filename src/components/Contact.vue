@@ -4,7 +4,7 @@
         <div class="py-16 grid gap-y-20">
             
             <div id="contact" class="text-center xl:px-10">
-                <aos-vue animation="zoom-in-down" :duration="650" :once="true">
+                <aos-vue animation="zoom-in-down" :duration="800" :once="true">
                     <h4 class="font-normal text-base text-orange-600 uppercase">Want to</h4>
                     <h1 class="font-bold text-blue-950 text-4xl">Contact me?</h1>
                     <h4 class="pt-5 font-normal text-base">
@@ -16,7 +16,7 @@
             <div class="flex flex-col w-full lg:flex-row gap-20"> 
                 <div class="flex-grow justify-center w-full lg:w-1/2">
                     <div class="text-left 2xl:text-left">
-                    <aos-vue animation="zoom-out-right" :duration="650" :once="true">
+                    <aos-vue animation="zoom-out-right" :duration="800" :once="true">
 
                         <form ref="form" @submit.prevent="sendEmail">
                             <div class="flex flex-col gap-3">
@@ -42,7 +42,7 @@
                 </div>
 
                 <div class="flex-grow flex flex-col content-start w-full lg:w-1/2 lg:flex">
-                    <aos-vue animation="zoom-out-left" :duration="650" :once="true">
+                    <aos-vue animation="zoom-out-left" :duration="800" :once="true">
 
                     <div class="flex flex-col pb-6">
                         <div class="flex flex-row gap-5">
@@ -57,7 +57,7 @@
                             <div class="p-3 bg-slate-100 text-blue-950 rounded-full"><BsTelephone /></div>
                             <h4 class="font-semibold text-orange-600 text-base pt-2">Phone</h4>
                         </div>
-                        <h4 class="ps-16 font-normal text-base">097-234-0942</h4>
+                        <h4 class="ps-16 font-normal text-base">(+66) 97 - 2340942</h4>
                     </div>
 
                     <div class="flex flex-col pb-6">
@@ -73,7 +73,7 @@
                             <div class="p-3 bg-slate-100 text-blue-950 rounded-full"><GvWorld /></div>
                             <h4 class="font-semibold text-orange-600 text-base pt-2">Website</h4>
                         </div>
-                        <a href="https://pcl-tum.github.io/profile-reactjs" class="ps-16 font-normal text-base">https://pcl-tum.github.io/profile-reactjs</a>
+                        <a href="https://pcl-tum.github.io/profile.me/" class="ps-16 font-normal text-base">https://pcl-tum.github.io/profile.me</a>
                     </div>
                     </aos-vue>
                   

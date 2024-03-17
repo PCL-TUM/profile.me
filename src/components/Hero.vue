@@ -1,11 +1,11 @@
 <template lang="">
 	<div>
-		<div class="py-24 xl:py-0 grid gap-y-20">
+		<div class="py-16 xl:py-0 grid gap-y-20">
       
 			<div id="home" class="flex flex-col w-full xl:flex-row-reverse gap-4"> 
 				<div class="flex-grow justify-center w-full xl:w-1/2 xl:flex">
 
-					<aos-vue animation="zoom-in-left" :duration="650" :once="true">
+					<aos-vue animation="zoom-in-left" :duration="800" :once="true">
 						<img class="h-auto mx-auto sm:max-w-sm xl:max-w-full xl:p-20" src="../assets/images/thisisme.png" alt="image description">
 					</aos-vue>
 
@@ -13,7 +13,7 @@
 
 				<div class="flex-grow flex justify-center w-full xl:w-1/2 xl:items-center xl:justify-start">
 
-					<aos-vue animation="zoom-in-right" :duration="650" :once="true">
+					<aos-vue animation="zoom-in-right" :duration="800" :once="true">
 
 					<div class="text-left 2xl:text-left">
 						<div class="text-center xl:text-start">

@@ -5,7 +5,7 @@
 			<div id="about" class="flex flex-col w-full xl:flex-row gap-4"> 
 				<div class="flex-grow justify-center w-full xl:w-1/2 hidden xl:flex">
 
-					<aos-vue animation="zoom-out-right" :duration="650" :once="true">
+					<aos-vue animation="zoom-out-right" :duration="800" :once="true">
 						<img class="h-auto max-w-full p-20" src="../assets/images/aboutme.png" alt="image description">
 					</aos-vue>
 
@@ -13,7 +13,7 @@
 
 				<div class="flex-grow flex justify-center w-full xl:w-1/2 xl:items-center xl:justify-start">
 					
-					<aos-vue animation="zoom-out-left" :duration="650" :once="true">
+					<aos-vue animation="zoom-out-left" :duration="800" :once="true">
 					
 					<div class="text-left 2xl:text-left">						
 						<div class="text-center xl:text-start">
@@ -50,7 +50,7 @@
 							<div class="flex flex-row text-md">
 								<span class="text-xl text-orange-600 p-0.5 px-2"><PhBoldPhone /></span>
 								<span class="font-bold me-3 text-blue-950 sm:me-0 w-2/5 sm:w-2/4 xl:w-1/4">Phone </span>
-								<span class="font-normal w-4/5">097-234-0942</span>
+								<span class="font-normal w-4/5">(+66) 97 - 2340942</span>
 							</div>
 							<div class="flex flex-row text-md">
 								<span class="text-xl text-orange-600 p-0.5 px-2"><PhBoldMapPin /></span>
