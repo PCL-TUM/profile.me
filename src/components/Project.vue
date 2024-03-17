@@ -45,6 +45,9 @@
                 <swiper-slide>
                   <img src="../assets/images/project/profile/pf-6.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt=""> 
                 </swiper-slide>
+                <swiper-slide>
+                  <img src="../assets/images/project/profile/pf-7.png" class="h-[156px] md:h-[278px] w-full rounded-lg" alt=""> 
+                </swiper-slide>
               </swiper>
               <!-- end carousel -->
             </div>
