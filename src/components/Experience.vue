@@ -31,7 +31,7 @@
                 </time>    
 
                 <div class="py-5">
-                  <img class="shadow-md rounded-xl" src="https://www.growthbunker.dev/images/vuetimeline/macross.jpg" alt="image description">
+                  <img class="shadow-md rounded-xl" src="../assets/images/assets/internship.png" alt="image description">
                 </div>
 
                 <h4>
@@ -90,7 +90,7 @@
                 </time>    
 
                 <div class="py-5">
-                  <img class="shadow-md rounded-xl" src="https://www.growthbunker.dev/images/vuetimeline/macross.jpg" alt="image description">
+                  <img class="shadow-md rounded-xl" src="../assets/images/assets/university.png" alt="image description">
                 </div>
 
                 <h4>
@@ -141,7 +141,7 @@
                 </time>    
 
                 <div class="py-5">
-                  <img class="shadow-md rounded-xl" src="../assets/images/freelance.png" alt="image description">
+                  <img class="shadow-md rounded-xl" src="../assets/images/assets/freelance.png" alt="image description">
                 </div>
 
                 <h4>
