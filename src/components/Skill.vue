@@ -25,7 +25,7 @@
                 <swiper-slide>
                     <div class="card w-80 bg-base-100 shadow-lg">
                         <div class="card-body p-5 pt-10 gap-y-10">
-                            <h1 class="card-title justify-center font-bold text-3xl">HTML</h1>
+                            <h1 class="card-title justify-center font-bold text-3xl text-blue-950">HTML</h1>
 
                             <div class="card-actions justify-center">
                                 <div class="indicator progress-bar html">
@@ -60,7 +60,7 @@
                 <swiper-slide>
                     <div class="card w-80 bg-base-100 shadow-lg">
                         <div class="card-body p-5 pt-10 gap-y-10">
-                            <h1 class="card-title justify-center font-bold text-3xl">CSS</h1>
+                            <h1 class="card-title justify-center font-bold text-3xl text-blue-950">CSS</h1>
 
                             <div class="card-actions justify-center">
                                 <div class="indicator progress-bar css">
@@ -95,7 +95,7 @@
                 <swiper-slide>
                     <div class="card w-80 bg-base-100 shadow-lg">
                         <div class="card-body p-5 pt-10 gap-y-10">
-                            <h1 class="card-title justify-center font-bold text-3xl">Java Script</h1>
+                            <h1 class="card-title justify-center font-bold text-3xl text-blue-950">Java Script</h1>
 
                             <div class="card-actions justify-center">
                                 <div class="indicator progress-bar js">
@@ -130,7 +130,7 @@
                 <swiper-slide>
                     <div class="card w-80 bg-base-100 shadow-lg">
                         <div class="card-body p-5 pt-10 gap-y-10">
-                            <h1 class="card-title justify-center font-bold text-3xl">PHP</h1>
+                            <h1 class="card-title justify-center font-bold text-3xl text-blue-950">PHP</h1>
 
                             <div class="card-actions justify-center">
                                 <div class="indicator progress-bar php">
@@ -165,7 +165,7 @@
                 <swiper-slide>
                     <div class="card w-80 bg-base-100 shadow-lg">
                         <div class="card-body p-5 pt-10 gap-y-10">
-                            <h1 class="card-title justify-center font-bold text-3xl">MySQL</h1>
+                            <h1 class="card-title justify-center font-bold text-3xl text-blue-950">MySQL</h1>
 
                             <div class="card-actions justify-center">
                                 <div class="indicator progress-bar mysql">
@@ -200,7 +200,7 @@
                 <swiper-slide>
                     <div class="card w-80 bg-base-100 shadow-lg">
                         <div class="card-body p-5 pt-10 gap-y-10">
-                            <h1 class="card-title justify-center font-bold text-3xl">Java</h1>
+                            <h1 class="card-title justify-center font-bold text-3xl text-blue-950">Java</h1>
 
                             <div class="card-actions justify-center">
                                 <div class="indicator progress-bar java">
@@ -235,7 +235,7 @@
                 <swiper-slide>
                     <div class="card w-80 bg-base-100 shadow-lg">
                         <div class="card-body p-5 pt-10 gap-y-10">
-                            <h1 class="card-title justify-center font-bold text-3xl">Python</h1>
+                            <h1 class="card-title justify-center font-bold text-3xl text-blue-950">Python</h1>
 
                             <div class="card-actions justify-center">
                                 <div class="indicator progress-bar python">
@@ -270,7 +270,7 @@
                 <swiper-slide>
                     <div class="card w-80 bg-base-100 shadow-lg">
                         <div class="card-body p-5 pt-10 gap-y-10">
-                            <h1 class="card-title justify-center font-bold text-3xl">C#</h1>
+                            <h1 class="card-title justify-center font-bold text-3xl text-blue-950">C#</h1>
 
                             <div class="card-actions justify-center">
                                 <div class="indicator progress-bar cshap">
@@ -305,7 +305,7 @@
                 <swiper-slide>
                     <div class="card w-80 bg-base-100 shadow-lg">
                         <div class="card-body p-5 pt-10 gap-y-10">
-                            <h1 class="card-title justify-center font-bold text-3xl">C++</h1>
+                            <h1 class="card-title justify-center font-bold text-3xl text-blue-950">C++</h1>
 
                             <div class="card-actions justify-center">
                                 <div class="indicator progress-bar cplusplus">
@@ -340,7 +340,7 @@
                 <swiper-slide>
                     <div class="card w-80 bg-base-100 shadow-lg">
                         <div class="card-body p-5 pt-10 gap-y-10">
-                            <h1 class="card-title justify-center font-bold text-3xl">.NET</h1>
+                            <h1 class="card-title justify-center font-bold text-3xl text-blue-950">.NET</h1>
 
                             <div class="card-actions justify-center">
                                 <div class="indicator progress-bar dotnet">
@@ -375,7 +375,7 @@
                 <swiper-slide>
                     <div class="card w-80 bg-base-100 shadow-lg">
                         <div class="card-body p-5 pt-10 gap-y-10">
-                            <h1 class="card-title justify-center font-bold text-3xl">React</h1>
+                            <h1 class="card-title justify-center font-bold text-3xl text-blue-950">React</h1>
 
                             <div class="card-actions justify-center">
                                 <div class="indicator progress-bar react">
@@ -410,7 +410,7 @@
                 <swiper-slide>
                     <div class="card w-80 bg-base-100 shadow-lg">
                         <div class="card-body p-5 pt-10 gap-y-10">
-                            <h1 class="card-title justify-center font-bold text-3xl">Vue</h1>
+                            <h1 class="card-title justify-center font-bold text-3xl text-blue-950">Vue</h1>
 
                             <div class="card-actions justify-center">
                                 <div class="indicator progress-bar vue">
@@ -445,7 +445,7 @@
                 <swiper-slide>
                     <div class="card w-80 bg-base-100 shadow-lg">
                         <div class="card-body p-5 pt-10 gap-y-10">
-                            <h1 class="card-title justify-center font-bold text-3xl">Node.JS</h1>
+                            <h1 class="card-title justify-center font-bold text-3xl text-blue-950">Node.JS</h1>
 
                             <div class="card-actions justify-center">
                                 <div class="indicator progress-bar nodejs">
@@ -480,7 +480,7 @@
                 <swiper-slide>
                     <div class="card w-80 bg-base-100 shadow-lg">
                         <div class="card-body p-5 pt-10 gap-y-10">
-                            <h1 class="card-title justify-center font-bold text-3xl">Jquery</h1>
+                            <h1 class="card-title justify-center font-bold text-3xl text-blue-950">Jquery</h1>
 
                             <div class="card-actions justify-center">
                                 <div class="indicator progress-bar jquery">
@@ -515,7 +515,7 @@
                 <swiper-slide>
                     <div class="card w-80 bg-base-100 shadow-lg">
                         <div class="card-body p-5 pt-10 gap-y-10">
-                            <h1 class="card-title justify-center font-bold text-3xl">Bootstrap</h1>
+                            <h1 class="card-title justify-center font-bold text-3xl text-blue-950">Bootstrap</h1>
 
                             <div class="card-actions justify-center">
                                 <div class="indicator progress-bar bootstrap">
@@ -550,7 +550,7 @@
                 <swiper-slide>
                     <div class="card w-80 bg-base-100 shadow-lg">
                         <div class="card-body p-5 pt-10 gap-y-10">
-                            <h1 class="card-title justify-center font-bold text-3xl">Tailwind</h1>
+                            <h1 class="card-title justify-center font-bold text-3xl text-blue-950">Tailwind</h1>
 
                             <div class="card-actions justify-center">
                                 <div class="indicator progress-bar tailwind">

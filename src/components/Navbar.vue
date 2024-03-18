@@ -13,18 +13,21 @@
             <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow-lg bg-base-100 rounded-xl w-72">
               <li><a href="#home" class="p-4">Home</a></li>
               <li><a href="#about" class="p-4">About</a></li>
+              <li><a href="#experience" class="p-4">Experience</a></li>
               <li><a href="#skill" class="p-4">Skill</a></li>
               <li>
-                <summary class="p-4">
-                  Project
-                </summary>
-                <ul class="p-2 bg-base-100 rounded-t-none">
-                  <li><a href="#p_folio" class="p-4">Folio Profile</a></li>
-                  <li><a href="#p_psip" class="p-4">PSIP : Project<span class="badge badge-sm">university</span></a></li>
-                  <li><a href="#p_bluewind" class="p-4">Bluewind <span class="badge badge-sm">internship</span></a></li>
-                  <li><a href="#p_borrow" class="p-4">Borrow Equpment <span class="badge badge-sm">freelance</span></a></li>
-                  <li><a href="#p_banmai" class="p-4">Banmai service</a></li>
-                </ul>
+                <details open>
+                  <summary class="p-4">
+                    Project
+                  </summary>
+                  <ul class="p-2 bg-base-100 rounded-t-none">
+                    <li><a href="#p_folio" class="p-4">Folio Profile</a></li>
+                    <li><a href="#p_psip" class="p-4">PSIP : Project<span class="badge badge-sm shadow-sm">university</span></a></li>
+                    <li><a href="#p_bluewind" class="p-4">Bluewind <span class="badge badge-sm shadow-sm">internship</span></a></li>
+                    <li><a href="#p_borrow" class="p-4">Borrow Equpment <span class="badge badge-sm shadow-sm">freelance</span></a></li>
+                    <li><a href="#p_banmai" class="p-4">Banmai service</a></li>
+                  </ul>
+                </details>
               </li>
               <li><a href="#contact" class="p-4">Contact</a></li>
             </ul>
@@ -57,6 +60,7 @@
             <ul class="menu menu-horizontal px-1">
               <li><a href="#home">Home</a></li>
               <li><a href="#about">About</a></li>
+              <li><a href="#experience">Experience</a></li>
               <li><a href="#skill">Skill</a></li>
               <li>
                 <details class="dropdown-end">
@@ -65,9 +69,9 @@
                   </summary>
                   <ul class="dropdown-content p-2 z-[1] menu bg-base-100 shadow-lg rounded-t-none w-60">
                     <li><a href="#p_folio" class="p-4">Folio Profile</a></li>
-                    <li><a href="#p_psip" class="p-4">PSIP : Project<span class="badge badge-sm">university</span></a></li>
-                    <li><a href="#p_bluewind" class="p-4">Bluewind Solution<span class="badge badge-sm">internship</span></a></li>
-                    <li><a href="#p_borrow" class="p-4">Borrow Equpment <span class="badge badge-sm">freelance</span></a></li>
+                    <li><a href="#p_psip" class="p-4">PSIP : Project<span class="badge badge-sm shadow-sm">university</span></a></li>
+                    <li><a href="#p_bluewind" class="p-4">Bluewind Solution<span class="badge badge-sm shadow-sm">internship</span></a></li>
+                    <li><a href="#p_borrow" class="p-4">Borrow Equpment <span class="badge badge-sm shadow-sm">freelance</span></a></li>
                     <li><a href="#p_banmai" class="p-4">Banmai service</a></li>
                   </ul>
                 </details>

@@ -64,3 +64,7 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm:focus {
     opacity: var(--swiper-pagination-bullet-opacity, 1) !important;
     background: #f97316 !important;
 }
+
+.timeline-vertical > li > hr {
+    width: 0.05rem !important;
+}
