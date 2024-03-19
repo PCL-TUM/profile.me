@@ -1,6 +1,6 @@
 <template lang="">
   
-  <div class="text-base-content bg-base-100 sticky top-0 z-30 w-full justify-center backdrop-blur transition-shadow duration-100 [transform:translate3d(0,0,0)] rounded-b-xl shadow-sm">
+  <div class="text-base-content bg-base-100 sticky top-0 z-30 w-full justify-center backdrop-blur transition-shadow duration-100 [transform:translate3d(0,0,0)] rounded-b-xl shadow-lg border-orange-600">
     
     <!-- begin mobile screen -->
     <div class="md:hidden">
@@ -22,9 +22,9 @@
                   </summary>
                   <ul class="p-2 bg-base-100 rounded-t-none">
                     <li><a href="#p_folio" class="p-4">Folio Profile</a></li>
-                    <li><a href="#p_psip" class="p-4">PSIP : Project<span class="badge badge-sm shadow-sm">university</span></a></li>
-                    <li><a href="#p_bluewind" class="p-4">Bluewind <span class="badge badge-sm shadow-sm">internship</span></a></li>
-                    <li><a href="#p_borrow" class="p-4">Borrow Equpment <span class="badge badge-sm shadow-sm">freelance</span></a></li>
+                    <li><a href="#p_psip" class="p-4">PSIP : Project<span class="badge badge-sm shadow-lg border-orange-600">university</span></a></li>
+                    <li><a href="#p_bluewind" class="p-4">Bluewind <span class="badge badge-sm shadow-lg border-orange-600">internship</span></a></li>
+                    <li><a href="#p_borrow" class="p-4">Borrow Equpment <span class="badge badge-sm shadow-lg border-orange-600">freelance</span></a></li>
                     <li><a href="#p_banmai" class="p-4">Banmai service</a></li>
                   </ul>
                 </details>
@@ -73,9 +73,9 @@
                     </span> 
                     <ul class="p-3">
                       <li><a href="#p_folio" class="p-3">Folio Profile</a></li>
-                      <li><a href="#p_psip" class="p-3">PSIP : Project<span class="badge badge-sm shadow-sm">university</span></a></li>
-                      <li><a href="#p_bluewind" class="p-3">Bluewind Solution<span class="badge badge-sm shadow-sm">internship</span></a></li>
-                      <li><a href="#p_borrow" class="p-3">Borrow Equpment <span class="badge badge-sm shadow-sm">freelance</span></a></li>
+                      <li><a href="#p_psip" class="p-3">PSIP : Project<span class="badge badge-sm shadow-lg border-orange-600">university</span></a></li>
+                      <li><a href="#p_bluewind" class="p-3">Bluewind Solution<span class="badge badge-sm shadow-lg border-orange-600">internship</span></a></li>
+                      <li><a href="#p_borrow" class="p-3">Borrow Equpment <span class="badge badge-sm shadow-lg border-orange-600">freelance</span></a></li>
                       <li><a href="#p_banmai" class="p-3">Banmai service</a></li>
                     </ul> 
                 </ul>
