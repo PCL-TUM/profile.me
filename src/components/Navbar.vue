@@ -62,12 +62,31 @@
               <li><a href="#about">About</a></li>
               <li><a href="#experience">Experience</a></li>
               <li><a href="#skill">Skill</a></li>
-              <li>
-                <details class="dropdown-end">
+              <li class="dropdown dropdown-hover dropdown-bottom dropdown-end">
+                <div tabindex="0" role="button" class="">Project 
+                  <svg class="-mr-1 h-5 w-5 text-[#3a4f6b]" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd"></path>
+                  </svg>
+                </div>
+                <ul tabindex="0" class="dropdown-content z-[1] menu p-3 pt-5 bg-white shadow-lg rounded-xl rounded-t-none w-80">
+                  <span class="menu-title flex items-center gap-4 px-3 py-0.5">
+                    Project
+                  </span> 
+                  <ul class="p-3">
+                    <li><a href="#p_folio" class="p-3">Folio Profile</a></li>
+                    <li><a href="#p_psip" class="p-3">PSIP : Project<span class="badge badge-sm shadow-lg border-orange-600">university</span></a></li>
+                    <li><a href="#p_bluewind" class="p-3">Bluewind Solution<span class="badge badge-sm shadow-lg border-orange-600">internship</span></a></li>
+                    <li><a href="#p_borrow" class="p-3">Borrow Equpment <span class="badge badge-sm shadow-lg border-orange-600">freelance</span></a></li>
+                    <li><a href="#p_banmai" class="p-3">Banmai service</a></li>
+                  </ul> 
+                </ul>
+              </li>
+              <!-- <li class="dropdown dropdown-hover">
+                <details tabindex="0" class="dropdown-end">
                   <summary>
                     Project
                   </summary>
-                  <ul class="dropdown-content p-3 z-[1] bg-base-100 shadow-lg rounded-t-none w-80">
+                  <ul tabindex="0" class="dropdown-content z-[1] menu p-3 bg-base-100 shadow-lg rounded-t-none w-80">
                     <span class="menu-title flex items-center gap-4 px-3 py-0.5">
                       Project
                     </span> 
@@ -80,7 +99,7 @@
                     </ul> 
                 </ul>
                 </details>
-              </li>
+              </li> -->
               <li><a href="#contact">Contact</a></li>
             </ul>
           </div>
@@ -92,9 +111,12 @@
 </template>
 
 <script>
-export default {
-
-}
+import { ReArrowDropDownLine } from "@kalimahapps/vue-icons";
+  export default {
+    components: {
+			ReArrowDropDownLine
+		}
+  }
 </script>
 
 <style>

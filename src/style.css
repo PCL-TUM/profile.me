@@ -68,3 +68,11 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm:focus {
 .timeline-vertical > li > hr {
     width: 0.05rem !important;
 }
+
+/* .dropdown-project {
+    display: none;
+}
+  
+.menu-project:hover .dropdown-project {
+    display: block;
+} */
