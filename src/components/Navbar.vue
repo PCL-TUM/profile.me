@@ -67,7 +67,7 @@
                   <summary>
                     Project
                   </summary>
-                  <ul class="dropdown-content p-3 z-[1] menu bg-base-100 shadow-lg pt-10 rounded-t-none w-80">
+                  <ul class="dropdown-content p-3 z-[1] bg-base-100 shadow-lg rounded-t-none w-80">
                     <span class="menu-title flex items-center gap-4 px-3 py-0.5">
                       Project
                     </span> 
