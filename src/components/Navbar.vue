@@ -67,20 +67,18 @@
                   <summary>
                     Project
                   </summary>
-                  <ul class="dropdown-content p-2 z-[1] menu bg-base-100 shadow-lg rounded-t-none w-60">
-                    <li>
-                      <span class="menu-title flex items-center gap-4 px-1.5">
-                       Actions
-                      </span> 
-                      <ul>
-                        <li><a href="#p_folio" class="p-4">Folio Profile</a></li>
-                        <li><a href="#p_psip" class="p-4">PSIP : Project<span class="badge badge-sm shadow-sm">university</span></a></li>
-                        <li><a href="#p_bluewind" class="p-4">Bluewind Solution<span class="badge badge-sm shadow-sm">internship</span></a></li>
-                        <li><a href="#p_borrow" class="p-4">Borrow Equpment <span class="badge badge-sm shadow-sm">freelance</span></a></li>
-                        <li><a href="#p_banmai" class="p-4">Banmai service</a></li>
-                      </ul> 
-                    </li>
-                  </ul>
+                  <ul class="dropdown-content p-3 z-[1] menu bg-base-100 shadow-lg pt-10 rounded-t-none w-80">
+                    <span class="menu-title flex items-center gap-4 px-3 py-0.5">
+                      Project
+                    </span> 
+                    <ul class="p-3">
+                      <li><a href="#p_folio" class="p-3">Folio Profile</a></li>
+                      <li><a href="#p_psip" class="p-3">PSIP : Project<span class="badge badge-sm shadow-sm">university</span></a></li>
+                      <li><a href="#p_bluewind" class="p-3">Bluewind Solution<span class="badge badge-sm shadow-sm">internship</span></a></li>
+                      <li><a href="#p_borrow" class="p-3">Borrow Equpment <span class="badge badge-sm shadow-sm">freelance</span></a></li>
+                      <li><a href="#p_banmai" class="p-3">Banmai service</a></li>
+                    </ul> 
+                </ul>
                 </details>
               </li>
               <li><a href="#contact">Contact</a></li>
