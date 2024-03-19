@@ -368,7 +368,7 @@
             <h4 class="pt-5 font-normal text-base">
               This project service while working at Banmaipathana Subdistrict Health Promoting Hospital. 
               It is a website has a system for searching patient names in the database to print stickers
-              , Calendar list of serv text-blue-950ice recipients, Template for graphic onepage.
+              , Calendar list of service recipients, Template for graphic onepage.
             </h4>
             <h4 class="pt-5 font-bold text-xl">Tools</h4>
             <div class="pt-3 font-bold text-5xl flex justify-center 2xl:justify-start gap-4"> 
