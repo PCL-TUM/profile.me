@@ -5,7 +5,7 @@
       <div id="project" class="text-center">
         <aos-vue animation="zoom-in-up" :duration="800" :once="true">
           <h4 class="font-normal text-orange-600 text-base uppercase">Example</h4>
-          <h1 class="font-bold text-blue-950 text-4xl">My Project</h1>
+          <h1 class="font-bold text-blue-950 text-4xl drop-shadow-sm">My Project</h1>
           <h4 class="pt-5 font-normal text-base">
             Here are some examples of projects I've been working on over time. Which shows examples of tools used in website development.
           </h4>
@@ -62,14 +62,16 @@
         <div class="flex-grow place-items-center flex justify-center w-full xl:w-1/2">
           <div class="text-center 2xl:text-left">
             <h4 class="font-normal text-orange-600 text-base">This Project</h4>
-            <h1 class="font-bold text-blue-950 text-4xl">Folio Profile</h1>
+            <h1 class="font-bold text-blue-950 text-4xl drop-shadow-sm">Folio Profile</h1>
 
             <h4 class="pt-5 font-normal text-base">
               This project details my personal information, abilities, education, jobs and contact me, And this project am deploy on github page is demo wabsite for profile me.
             </h4>
             <h4 class="pt-5 font-bold text-blue-950 text-xl">Tools</h4>
             <div class="pt-3 font-bold text-5xl flex justify-center 2xl:justify-start gap-4"> 
-              <VsFileTypeVite />
+              <div class="flex flex-row gap-4">
+                <img src="https://www.svgrepo.com/show/374167/vite.svg" class="max-h-12 max-w-auto" alt="">
+              </div>
               <DeVuejsOriginal />
               <DeTailwindcssPlain />
               <div class="flex flex-row gap-4">
@@ -137,7 +139,15 @@
         <div class="flex-grow place-items-center flex justify-center w-full xl:w-1/2">
           <div class="text-center 2xl:text-left">
             <h4 class="font-normal text-orange-600 text-base">This Project</h4>
-            <h1 class="font-bold text-blue-950 text-4xl">PSIP : Parcel Sortation Via Image Processing</h1>
+            <h1 class="font-bold text-blue-950 text-4xl drop-shadow-sm 2xl:hidden">PSIP : Parcel Sortation Via Image Processing</h1>
+            <div class="hidden 2xl:flex">
+              <div class="flex flex-row">
+                <h1 class="font-bold text-blue-950 text-4xl drop-shadow-sm">PSIP : Parcel Sortation Via Image Processing
+                  <div class="badge badge-lg border-orange-600 font-normal shadow-md mx-2">University</div>
+                </h1>
+                
+              </div>
+            </div>
 
             <h4 class="pt-5 font-normal text-base">
               This a graduation project. It is a website used to display information on parcels that have been sorted by an image processing machine.
@@ -212,7 +222,15 @@
         <div class="flex-grow place-items-center flex justify-center w-full xl:w-1/2">
           <div class="text-center 2xl:text-left">
             <h4 class="font-normal text-orange-600 text-base">This Project</h4>
-            <h1 class="font-bold text-blue-950 text-4xl">Bluewind Solution</h1>
+            <h1 class="font-bold text-blue-950 text-4xl drop-shadow-sm 2xl:hidden">Bluewind Solution</h1>
+            <div class="hidden 2xl:flex">
+              <div class="flex flex-row ">
+                <h1 class="font-bold text-blue-950 text-4xl drop-shadow-sm">Bluewind Solution</h1>
+                <div class="pt-3">
+                  <div class="badge badge-lg border-orange-600 shadow-md mx-5">Internship</div>
+                </div>
+              </div>
+            </div>
 
             <h4 class="pt-5 font-normal text-base">
               This main project assigned during internship at Bluewind Solution Co., Ltd. for 4 months. It is a website developed with PHP website format CRUD (Create, Read, Update, Delete).
@@ -283,7 +301,15 @@
         <div class="flex-grow place-items-center flex justify-center w-full xl:w-1/2">
           <div class="text-center 2xl:text-left">
             <h4 class="font-normal text-orange-600 text-base">This Project</h4>
-            <h1 class="font-bold text-blue-950 text-4xl">Borrow Equpment</h1>
+            <h1 class="font-bold text-blue-950 text-4xl drop-shadow-sm 2xl:hidden">Borrow Equpment</h1>
+            <div class="hidden 2xl:flex">
+              <div class="flex flex-row ">
+                <h1 class="font-bold text-blue-950 text-4xl drop-shadow-sm">Borrow Equpment</h1>
+                <div class="pt-3">
+                  <div class="badge badge-lg border-orange-600 shadow-md mx-5">Freelance</div>
+                </div>
+              </div>
+            </div>
 
             <h4 class="pt-5 font-normal text-base">
               This project freelance job. It is a website developed with EJS website format CRUD (Create, Read, Update, Delete). And notify borrow equipment vie Socket.io
@@ -363,7 +389,7 @@
         <div class="flex-grow place-items-center flex justify-center w-full xl:w-1/2">
           <div class="text-center 2xl:text-left">
             <h4 class="font-normal text-orange-600 text-base">This Project</h4>
-            <h1 class="font-bold text-blue-950 text-4xl">Banmai Service</h1>
+            <h1 class="font-bold text-blue-950 text-4xl drop-shadow-sm">Banmai Service</h1>
 
             <h4 class="pt-5 font-normal text-base">
               This project service while working at Banmaipathana Subdistrict Health Promoting Hospital. 
@@ -405,7 +431,7 @@
   // import required modules
   import { Pagination, Navigation } from 'swiper/modules';
 
-  import { VsFileTypeVite } from "@kalimahapps/vue-icons";
+  // import { VsFileTypeVite } from "@kalimahapps/vue-icons";
   import { DeVuejsOriginal } from "@kalimahapps/vue-icons";
   import { DeTailwindcssPlain } from "@kalimahapps/vue-icons";
 
@@ -421,7 +447,7 @@
     components: {
       Swiper,
       SwiperSlide,
-      VsFileTypeVite,
+      // VsFileTypeVite,
       DeVuejsOriginal,
       DeTailwindcssPlain,
       DeJavascriptOriginal,

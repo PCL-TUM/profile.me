@@ -6,7 +6,7 @@
 				<div class="flex-grow justify-center w-full xl:w-1/2 hidden xl:flex">
 
 					<aos-vue animation="zoom-out-right" :duration="800" :once="true">
-						<img class="h-auto max-w-full p-20" src="../assets/images/aboutme.png" alt="image description">
+						<img class="h-auto max-w-full p-20 drop-shadow-lg" src="../assets/images/aboutme.png" alt="image description">
 					</aos-vue>
 
 				</div>
@@ -18,7 +18,7 @@
 					<div class="text-left 2xl:text-left">						
 						<div class="text-center xl:text-start">
 							<h4 class="font-normal text-orange-600 text-base uppercase">My intro</h4>
-							<h1 class="font-bold text-blue-950 text-4xl">About Me</h1>
+							<h1 class="font-bold text-blue-950 text-4xl drop-shadow-sm">About Me</h1>
 							<h4 class="pt-5 font-normal text-base text-balance">
 								Hi, I'm Tum. I love design websites on the Frontend, but I can work on the Backend as well. 
 								and I love learning about Web Development with New framework or library. 

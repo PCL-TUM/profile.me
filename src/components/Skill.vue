@@ -4,7 +4,7 @@
             <aos-vue animation="slide-up" :duration="800" :once="true">
 
                 <h4 class="font-normal text-base text-orange-600 uppercase">Abilities</h4>
-                <h1 class="font-bold text-blue-950 text-4xl">My Skills</h1>
+                <h1 class="font-bold text-blue-950 text-4xl drop-shadow-sm">My Skills</h1>
                 <h4 class="pt-5 font-normal text-base">
                     My tect skills and tools or framework knowledge that can be applied to website development
                 </h4>

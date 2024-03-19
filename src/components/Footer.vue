@@ -5,11 +5,12 @@
         <nav class="grid grid-flow-col gap-4">
           <a href="#home" class="link link-hover">Home</a>
           <a href="#about" class="link link-hover">About</a>
+          <a href="#experience" class="link link-hover">Experience</a>
           <a href="#skill" class="link link-hover">Skill</a>
           <a href="#p_folio" class="link link-hover">Project</a>
           <a href="#contact" class="link link-hover">Contact</a>
         </nav> 
-        <nav>
+        <nav> 
           <div class="grid grid-flow-col gap-4">
             <a href="https://github.com/PCL-TUM" title="GitHub">
               <span class="text-3xl">

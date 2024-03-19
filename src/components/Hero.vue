@@ -6,7 +6,7 @@
 				<div class="flex-grow justify-center w-full xl:w-1/2 xl:flex">
 
 					<aos-vue animation="zoom-in-left" :duration="800" :once="true">
-						<img class="h-auto mx-auto sm:max-w-sm xl:max-w-full xl:p-20" src="../assets/images/thisisme.png" alt="image description">
+						<img class="h-auto mx-auto drop-shadow-lg sm:max-w-sm xl:max-w-full xl:p-20" src="../assets/images/thisisme.png" alt="image description">
 					</aos-vue>
 
 				</div>

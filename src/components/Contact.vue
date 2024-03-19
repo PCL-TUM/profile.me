@@ -6,7 +6,7 @@
             <div id="contact" class="text-center xl:px-10">
                 <aos-vue animation="zoom-in-down" :duration="800" :once="true">
                     <h4 class="font-normal text-base text-orange-600 uppercase">Want to</h4>
-                    <h1 class="font-bold text-blue-950 text-4xl">Contact me?</h1>
+                    <h1 class="font-bold text-blue-950 text-4xl drop-shadow-sm">Contact me?</h1>
                     <h4 class="pt-5 font-normal text-base">
                         This is the details or information. that you can contact me
                     </h4>
@@ -21,14 +21,14 @@
                         <form ref="form" @submit.prevent="sendEmail">
                             <div class="flex flex-col gap-3">
                                 <div class="flex flex-col lg:flex-row gap-3">
-                                    <input type="text" class="input input-bordered text-base w-full" ref="user_name" name="user_name" placeholder="Your Name"/>
-                                    <input type="email" class="input input-bordered text-base w-full" ref="user_email" name="user_email" placeholder="Your Email"/>
+                                    <input type="text" class="input input-bordered text-base w-full shadow-sm" ref="user_name" name="user_name" placeholder="Your Name"/>
+                                    <input type="email" class="input input-bordered text-base w-full shadow-sm" ref="user_email" name="user_email" placeholder="Your Email"/>
                                 </div>
                                 <div>
-                                    <input type="text" class="input input-bordered text-base w-full" ref="subject" name="subject" placeholder="Subject"/>
+                                    <input type="text" class="input input-bordered text-base w-full shadow-sm" ref="subject" name="subject" placeholder="Subject"/>
                                 </div>
                                 <div>
-                                    <textarea type="text" class="textarea textarea-bordered textarea-md text-base w-full h-52" ref="message" name="message" placeholder="Message"></textarea>
+                                    <textarea type="text" class="textarea textarea-bordered textarea-md text-base w-full shadow-sm h-52" ref="message" name="message" placeholder="Message"></textarea>
                                 </div>
                                 <button type="submit" value="Send" class="btn rounded-full w-52 mx-auto px-6 text-white bg-orange-600 border-orange-600 hover:bg-orange-700 hover:border-orange-700 focus:bg-orange-500 focus:border-orange-500">
                                     Send Message
@@ -46,7 +46,7 @@
 
                     <div class="flex flex-col pb-6">
                         <div class="flex flex-row gap-5">
-                            <div class="p-3 bg-slate-100 text-blue-950 rounded-full"><FeMapPin /></div>
+                            <div class="p-3 bg-slate-100 text-blue-950 rounded-full shadow-md"><FeMapPin /></div>
                             <h4 class="font-semibold text-orange-600 text-base pt-2">Address</h4>
                         </div>
                         <h4 class="ps-16 font-normal text-base">69 Moo.1, Khun Thale, Mueang Surat Thani, Surat Thani, 84100</h4>
@@ -54,7 +54,7 @@
 
                     <div class="flex flex-col pb-6">
                         <div class="flex flex-row gap-5">
-                            <div class="p-3 bg-slate-100 text-blue-950 rounded-full"><BsTelephone /></div>
+                            <div class="p-3 bg-slate-100 text-blue-950 rounded-full shadow-md"><BsTelephone /></div>
                             <h4 class="font-semibold text-orange-600 text-base pt-2">Phone</h4>
                         </div>
                         <h4 class="ps-16 font-normal text-base">(+66) 97 - 2340942</h4>
@@ -62,7 +62,7 @@
 
                     <div class="flex flex-col pb-6">
                         <div class="flex flex-row gap-5">
-                            <div class="p-3 bg-slate-100 text-blue-950 rounded-full"><BxEnvelope /></div>
+                            <div class="p-3 bg-slate-100 text-blue-950 rounded-full shadow-md"><BxEnvelope /></div>
                             <h4 class="font-semibold text-orange-600 text-base pt-2">Email</h4>
                         </div>
                         <a href="mailto:phichet.pcl@gmail.com" class="ps-16 font-normal text-base">phichet.pcl@gmail.com</a>
@@ -70,7 +70,7 @@
 
                     <div class="flex flex-col pb-6">
                         <div class="flex flex-row gap-5">
-                            <div class="p-3 bg-slate-100 text-blue-950 rounded-full"><GvWorld /></div>
+                            <div class="p-3 bg-slate-100 text-blue-950 rounded-full shadow-md"><GvWorld /></div>
                             <h4 class="font-semibold text-orange-600 text-base pt-2">Website</h4>
                         </div>
                         <a href="https://pcl-tum.github.io/profile.me/" class="ps-16 font-normal text-base">https://pcl-tum.github.io/profile.me</a>

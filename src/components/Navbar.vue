@@ -3,7 +3,7 @@
   <div class="text-base-content bg-base-100 sticky top-0 z-30 w-full justify-center backdrop-blur transition-shadow duration-100 [transform:translate3d(0,0,0)] rounded-b-xl shadow-sm">
     
     <!-- begin mobile screen -->
-    <div class="sm:hidden">
+    <div class="md:hidden">
       <div class="navbar rounded-b-xl shadow-md">
         <div class="navbar-start">
           <div class="dropdown">
@@ -47,7 +47,7 @@
     <!-- end mobile screen -->
     
     <!-- begin windows screen -->
-    <div class="hidden sm:flex rounded-b-xl shadow-md">
+    <div class="hidden md:flex rounded-b-xl shadow-md">
       <div class="container w-full mx-auto px-5">
         <div class="navbar border-b-1">
           <div class="flex-1">
@@ -68,11 +68,18 @@
                     Project
                   </summary>
                   <ul class="dropdown-content p-2 z-[1] menu bg-base-100 shadow-lg rounded-t-none w-60">
-                    <li><a href="#p_folio" class="p-4">Folio Profile</a></li>
-                    <li><a href="#p_psip" class="p-4">PSIP : Project<span class="badge badge-sm shadow-sm">university</span></a></li>
-                    <li><a href="#p_bluewind" class="p-4">Bluewind Solution<span class="badge badge-sm shadow-sm">internship</span></a></li>
-                    <li><a href="#p_borrow" class="p-4">Borrow Equpment <span class="badge badge-sm shadow-sm">freelance</span></a></li>
-                    <li><a href="#p_banmai" class="p-4">Banmai service</a></li>
+                    <li>
+                      <span class="menu-title flex items-center gap-4 px-1.5">
+                       Actions
+                      </span> 
+                      <ul>
+                        <li><a href="#p_folio" class="p-4">Folio Profile</a></li>
+                        <li><a href="#p_psip" class="p-4">PSIP : Project<span class="badge badge-sm shadow-sm">university</span></a></li>
+                        <li><a href="#p_bluewind" class="p-4">Bluewind Solution<span class="badge badge-sm shadow-sm">internship</span></a></li>
+                        <li><a href="#p_borrow" class="p-4">Borrow Equpment <span class="badge badge-sm shadow-sm">freelance</span></a></li>
+                        <li><a href="#p_banmai" class="p-4">Banmai service</a></li>
+                      </ul> 
+                    </li>
                   </ul>
                 </details>
               </li>

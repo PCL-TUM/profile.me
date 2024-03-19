@@ -3,7 +3,7 @@
       <div id="experience" class="py-16 text-center">
         <aos-vue animation="slide-up" :duration="800" :once="true">
           <h4 class="font-normal text-base text-orange-600 uppercase">My Past</h4>
-          <h1 class="font-bold text-blue-950 text-4xl">Experience</h1>
+          <h1 class="font-bold text-blue-950 text-4xl drop-shadow-sm">Experience</h1>
           <h4 class="pt-5 font-normal text-base">
             Here are the experiences My work has been about website development.
           </h4>
