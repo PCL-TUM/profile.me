@@ -162,6 +162,45 @@
               <hr/>
             </li>
 
+            <li>
+              <div class="timeline-middle">
+                <div class="border-2 border-orange-500 rounded-full shadow-md p-1">
+                  <ChCode />
+                </div>
+              </div>
+              <div class="timeline-start text-start pt-1">
+                <time>
+                  <div class="flex flex-row">
+                    <div class=" pt-0.5">
+                      <div class="badge badge-md border-orange-600 shadow-md mx-2">Previous Job</div>
+                    </div>
+                    <h4 class="text-sm pt-1.5">July 2022 - July 2023</h4>
+                  </div>
+                  <h1 class="text-3xl font-bold text-blue-950">Banmaipathana Subdistrict Health Promoting Hospital</h1>
+                </time>    
+
+                <div class="py-5">
+                  <img class="shadow-md rounded-xl" src="../assets/images/assets/freelance.png" alt="image description">
+                </div>
+
+                <h4>
+                  This experience involves developing websites that use the machine RFID and notifications. 
+                  I work with 3 friends in this job, divided into frontend and backend, where I do frontend work. 
+                  Most of the work I do is web application development. 
+                  From the layout of the website structure and the design of various sections.
+                </h4>
+                <div class="py-5">
+                  <span>
+                    More about the release : 
+                    <a href="#p_borrow" class="italic text-blue-500 underline ">
+                      Banmai Service
+                    </a>
+                  </span>
+                </div>
+              </div>
+              <hr/>
+            </li>
+
           </ul>
         </div>
   
