@@ -187,7 +187,7 @@
                 <h4>
                   This experience in this section, I used to work in a position Computer Technical Officer that did not correspond to a position in the Developer field, 
                   but the work I had done was maintaining servers and databases within the organization. Its primary responsibility is to back up 
-                  the database and transmit data internally. Go to update central information and work IT Service other. And I've created a website Banmai Service to help make it easier
+                  the database and transmit data internally. send to update central information and work IT Service other. And I've created a website Banmai Service to help make it easier
                 </h4>
                 <div class="py-5">
                   <span>
