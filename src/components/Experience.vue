@@ -184,15 +184,14 @@
                 </div>
 
                 <h4>
-                  This experience involves developing websites that use the machine RFID and notifications. 
-                  I work with 3 friends in this job, divided into frontend and backend, where I do frontend work. 
-                  Most of the work I do is web application development. 
-                  From the layout of the website structure and the design of various sections.
+                  This experience in this section, I used to work in a position Computer Technical Officer that did not correspond to a position in the Developer field, 
+                  but the work I had done was maintaining servers and databases within the organization. Its primary responsibility is to back up 
+                  the database and transmit data internally. Go to update central information and work IT Service other
                 </h4>
                 <div class="py-5">
                   <span>
                     More about the release : 
-                    <a href="#p_borrow" class="italic text-blue-500 underline ">
+                    <a href="#p_banmai" class="italic text-blue-500 underline ">
                       Banmai Service
                     </a>
                   </span>
