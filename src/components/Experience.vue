@@ -42,7 +42,7 @@
                   <ul class="list-disc text-base px-5">
                     <li>
                       Learn and develop MVC format web applications with C#,
-                      ASP.NET.
+                      ASP.NET framework
                     </li>
                     <li>
                       Build web applications according to the UI specified with PHP.
@@ -95,7 +95,8 @@
 
                 <h4>
                   This part of the experience involves developing student projects. It is a project for graduation. 
-                  Most of the work I was offered was developing PHP web applications, and I had some side jobs at other jobs as well.
+                  Most of the work I was offered was developing PHP web applications starting with designing the database structure, website pages, and API service, 
+                  and I had some side jobs at other jobs as well.
                   A parcel sortation via image processing This project involves image processing and is divided into 3 parts.
                 </h4>
                 <div class="ps-3 pt-5">
@@ -137,7 +138,7 @@
                     </div>
                     <h4 class="text-sm pt-1.5">Jan 2022 - Apr 2022</h4>
                   </div>
-                  <h1 class="text-3xl font-bold text-blue-950">Borrow Equpment</h1>
+                  <h1 class="text-3xl font-bold text-blue-950">Borrow Equipment</h1>
                 </time>    
 
                 <div class="py-5">
@@ -154,7 +155,7 @@
                   <span>
                     More about the release : 
                     <a href="#p_borrow" class="italic text-blue-500 underline ">
-                      Borrow Equpment
+                      Borrow Equipment
                     </a>
                   </span>
                 </div>
@@ -180,13 +181,13 @@
                 </time>    
 
                 <div class="py-5">
-                  <img class="shadow-md rounded-xl" src="../assets/images/assets/freelance.png" alt="image description">
+                  <img class="shadow-md rounded-xl" src="../assets/images/assets/previous.png" alt="image description">
                 </div>
 
                 <h4>
                   This experience in this section, I used to work in a position Computer Technical Officer that did not correspond to a position in the Developer field, 
                   but the work I had done was maintaining servers and databases within the organization. Its primary responsibility is to back up 
-                  the database and transmit data internally. Go to update central information and work IT Service other
+                  the database and transmit data internally. Go to update central information and work IT Service other. And I've created a website Banmai Service to help make it easier
                 </h4>
                 <div class="py-5">
                   <span>

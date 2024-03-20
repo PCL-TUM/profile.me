@@ -301,10 +301,10 @@
         <div class="flex-grow place-items-center flex justify-center w-full xl:w-1/2">
           <div class="text-center 2xl:text-left">
             <h4 class="font-normal text-orange-600 text-base">This Project</h4>
-            <h1 class="font-bold text-blue-950 text-4xl drop-shadow-sm 2xl:hidden">Borrow Equpment</h1>
+            <h1 class="font-bold text-blue-950 text-4xl drop-shadow-sm 2xl:hidden">Borrow Equipment</h1>
             <div class="hidden 2xl:flex">
               <div class="flex flex-row ">
-                <h1 class="font-bold text-blue-950 text-4xl drop-shadow-sm">Borrow Equpment</h1>
+                <h1 class="font-bold text-blue-950 text-4xl drop-shadow-sm">Borrow Equipment</h1>
                 <div class="pt-3">
                   <div class="badge badge-lg border-orange-600 shadow-md mx-5">Freelance</div>
                 </div>
