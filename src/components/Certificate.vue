@@ -1,12 +1,27 @@
 <template>
     <div>
-        
+        <div id="certificate" class="py-16 text-center">
+
+        </div>
     </div>
 </template>
+
 <script>
-export default {
-    
-}
+    // Import Swiper Vue.js components
+    import { Swiper, SwiperSlide } from 'swiper/vue';
+
+    // Import Swiper styles
+    import 'swiper/css';
+
+    import 'swiper/css/effect-coverflow';
+    import 'swiper/css/pagination';
+
+    export default {
+        components: {
+            Swiper, 
+            SwiperSlide
+        }
+    }
 </script>
 <style>
     
