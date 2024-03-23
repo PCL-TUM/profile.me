@@ -1,7 +1,9 @@
 <template>
     <div>
         <div id="certificate" class="py-16 text-center">
-
+            <swiper-slide>
+                
+            </swiper-slide>
         </div>
     </div>
 </template>
