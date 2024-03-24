@@ -10,10 +10,10 @@
 </script>
 
 <template>
-  <div class="">
+  <div class="bg-gradient-to-r from-blue-950 to-sky-900">
     <Navbar />  <!-- component Navbar -->
     <!-- begin component -->
-    <div class="bg-blue-950">
+    <div class="">
       <div class="container w-full mx-auto px-5">
         <div class="sm:px-5">
           <Hero />
@@ -29,8 +29,8 @@
       </a>
     </div> -->
     
-    <svg id="wave" class="bg-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-      <path fill="#172554" fill-opacity="1" d="M0,128L60,112C120,96,240,64,360,64C480,64,600,96,720,128C840,160,960,192,1080,192C1200,192,1320,160,1380,144L1440,128L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path>
+    <svg id="" class="bg-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#fff" fill-opacity="1" d="M0,192L80,160C160,128,320,64,480,69.3C640,75,800,149,960,165.3C1120,181,1280,139,1360,117.3L1440,96L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
     </svg>
 
     <div class="bg-white">
