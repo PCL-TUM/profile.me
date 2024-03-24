@@ -17,6 +17,11 @@
                 <ByGithub />
               </span>
             </a>
+            <a href="https://www.linkedin.com/in/phichet-liwvaha-a1585b2b7" title="GitHub">
+              <span class="text-3xl">
+                <AkLinkedinBoxFill />
+              </span>
+            </a>
           
           </div>
         </nav> 
@@ -26,10 +31,12 @@
 
 <script>
 import { ByGithub } from "@kalimahapps/vue-icons";
+import { AkLinkedinBoxFill } from "@kalimahapps/vue-icons";
 
 	export default {
 		components: {
 			ByGithub,
+      AkLinkedinBoxFill
 		}
 	}
 </script>
