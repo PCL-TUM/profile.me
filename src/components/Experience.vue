@@ -84,7 +84,7 @@
                     <div class=" pt-0.5">
                       <div class="badge badge-md border-orange-600 shadow-md mx-2">University Project</div>
                     </div>
-                    <h4 class="text-sm pt-1.5">Mar 2021 - Mar 2022</h4>
+                    <h4 class="text-sm pt-1.5">Dec 2021 - Mar 2022</h4>
                   </div>
                   <h1 class="text-3xl font-bold text-blue-950">PSIP : Parcel Sortation Via Image Processing</h1>
                 </time>    
