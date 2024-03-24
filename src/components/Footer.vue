@@ -1,14 +1,18 @@
 <template lang="">
     <div>
 
-      <footer class="footer footer-center p-10 bg-blue-950 text-white rounded-t-xl sm:rounded-none">
-        <nav class="grid grid-flow-col gap-4">
-          <a href="#home" class="link link-hover">Home</a>
-          <a href="#about" class="link link-hover">About</a>
-          <a href="#experience" class="link link-hover">Experience</a>
-          <a href="#skill" class="link link-hover">Skill</a>
-          <a href="#p_folio" class="link link-hover">Project</a>
-          <a href="#contact" class="link link-hover">Contact</a>
+      <footer class="footer footer-center p-10 bg-none text-white rounded-t-xl sm:rounded-none">
+        <nav class="flex justify-center flex-col sm:flex-row gap-4">
+          <div class="flex flex-row gap-4">
+            <a href="#home" class="link link-hover">Home</a>
+            <a href="#about" class="link link-hover">About</a>
+            <a href="#experience" class="link link-hover">Experience</a>
+            <a href="#skill" class="link link-hover">Skill</a>
+          </div>
+          <div class="flex flex-row gap-4">
+            <a href="#p_folio" class="link link-hover">Project</a>
+            <a href="#contact" class="link link-hover">Contact</a>
+          </div>
         </nav> 
         <nav> 
           <div class="grid grid-flow-col gap-4">
