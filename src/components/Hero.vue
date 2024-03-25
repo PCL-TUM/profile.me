@@ -50,7 +50,7 @@
 <script>
 import { ByGithub } from "@kalimahapps/vue-icons";
 import { AkDownload } from "@kalimahapps/vue-icons";
-import Resume from "../assets/pdf/Resume.pdf"
+import Resume from "../assets/pdf/Phichet Resume.pdf"
 
 	export default {
 		components: {
