@@ -63,7 +63,7 @@ import Resume from "../assets/pdf/Resume.pdf"
 				let link = document.createElement('a');
 					link.href = Resume;
 					link.target = '_blank';
-					link.download = 'Resume_Phichet.pdf';
+					link.download = 'Phichet Resume.pdf';
 
 				document.body.appendChild(link);
 				
