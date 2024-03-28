@@ -32,7 +32,7 @@
 									<span class="text-lg"><ByGithub /></span>
 								</a>
 								<button @click="download" class="btn rounded-full px-6">
-									Dowload CV
+									Download CV
 									<span class="text-lg"><AkDownload /></span>
 								</button >
 							</div>
