@@ -22,8 +22,7 @@
 								<h1 class="font-bold text-4xl text-white tracking-tight xl:text-6xl">Hello, My name is</h1>
 								<h1 class="font-bold text-5xl text-white tracking-tight xl:text-6xl">Phichet Liwvaha</h1>
 								<h4 class="pt-3 font-normal text-slate-300 text-balance">
-									Hi, I'm quickly adapting and learning, friendly, and easy to get along with. 
-									Able to follow regulations ready to learn and always receive new knowledge
+									Hi, I' like to learn new things, can learn quickly, have a good personality, can get along with people easily, are punctual, can follow rules and regulations, and are always ready to learn new things.
 								</h4>
 							</div>
 							<div class="flex flex-row gap-5 pt-10 justify-center xl:justify-start">

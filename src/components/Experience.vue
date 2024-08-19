@@ -175,7 +175,7 @@
                     <div class=" pt-0.5">
                       <div class="badge badge-md border-orange-600 shadow-md mx-2">Previous Job</div>
                     </div>
-                    <h4 class="text-sm pt-1.5">July 2022 - July 2023</h4>
+                    <h4 class="text-sm pt-1.5">July 2022 - Now</h4>
                   </div>
                   <h1 class="text-3xl font-bold text-blue-950">Banmaipathana Subdistrict Health Promoting Hospital</h1>
                 </time>    
@@ -185,9 +185,8 @@
                 </div>
 
                 <h4>
-                  This experience in this section, I used to work in a position Computer Technical Officer that did not correspond to a position in the Developer field, 
-                  but the work I had done was maintaining servers and databases within the organization. Its primary responsibility is to back up 
-                  the database and transmit data internally. send to update central information and work IT Service other. And I've created a website Banmai Service to help make it easier
+                  This experience in this section, Primary responsibility is to back up the database and transmit data internally. send to update central information and related agencies for disburse expenses and work IT Service other. And I've created a website Banmai Service to help make it easier 
+
                 </h4>
                 <div class="py-5">
                   <span>
